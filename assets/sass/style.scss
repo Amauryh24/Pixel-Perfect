@@ -1,0 +1,126 @@
+// @import "00-form-medical-information.scss";
+.my-1 {
+  margin: 4px 0;
+}
+.bp-1 {
+  border-bottom: 0.5px solid #cccccc;
+}
+.pr-6 {
+  padding-right: 110px !important;
+}
+
+.container-form {
+  font-size: 14px;
+  .col-form-goal {
+    img {
+      width: 70%;
+    }
+  }
+
+  .col-form-pixel {
+    max-width: 675px;
+  }
+  h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 18px 10px;
+    margin: 0;
+    letter-spacing: 0.01em;
+  }
+  h3 {
+    font-size: 1.1em;
+    line-height: 1.1em;
+    margin: 0;
+    padding: 16px 10px 0px;
+  }
+
+  form {
+    .form-content {
+      padding: 12px 12px 22px;
+    }
+
+    .form-content-flex {
+      display: flex;
+      padding-bottom: 30px;
+    }
+    div {
+      position: relative;
+
+      .form-title {
+        font-size: 0.9em;
+        font-weight: 900;
+        letter-spacing: 0.04em;
+        margin: 2px 0px;
+        padding-top: 2px;
+      }
+      .form-control-border {
+        border: 1px solid #cccccc;
+        border-top: 1.4px solid #747474c4;
+      }
+      .box-first {
+        width: 68px;
+        height: 22px;
+      }
+      .text-first {
+        position: absolute;
+        top: 59px;
+        left: 12px;
+        font-size: 0.8em;
+      }
+      .box-last {
+        width: 118px;
+        height: 22px;
+      }
+      .text-last {
+        position: absolute;
+        top: 59px;
+        left: 83px;
+        font-size: 0.8em;
+      }
+
+      .form-select {
+        width: 286px;
+        height: 22px;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+      }
+
+      .box-mm,
+      .box-dd {
+        width: 18px;
+        height: 22px;
+      }
+      .text-mm {
+        font-size: 0.8em;
+        position: absolute;
+        top: 46px;
+        left: 0px;
+      }
+      .text-dd {
+        font-size: 0.8em;
+        position: absolute;
+        top: 46px;
+        left: 36px;
+      }
+      .box-yyyy {
+        width: 35px;
+        height: 22px;
+      }
+      .separateur {
+        padding: 3px;
+        font-weight: bold;
+      }
+      .text-yyyy {
+        font-size: 0.8em;
+        position: absolute;
+        top: 46px;
+        left: 73px;
+      }
+      .box-relationship {
+        width: 290px;
+        height: 22px;
+      }
+    }
+  }
+}

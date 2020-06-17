@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,23 +8,126 @@
     <meta name="description" content="Pixel Perfect, composants" />
     <meta name="keywords" content="Pixel Perfect" />
 
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="icon" href="./assets/img/rocket.png" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
 
-    <title>Composants de design</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="icon" href="../assets/img/rocket.png" />
+
+    <title>22 Composants de design</title>
   </head>
   <body>
-    <h1>Composants de design</h1>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-6">
-          <img src="" alt="" />
+    <h1>22 Composants de design</h1>
+    <section class="container-fluid container-form p-0 p-md-0">
+      <div class="row row-form">
+        <div class="col-12 col-md-6 col-form-goal text-center">
+          <img
+            src="../assets/img/goals/00.form-medical-information.png"
+            alt=""
+          />
         </div>
-        <div class="col-6">
-          <img src="" alt="" />
+        <div class="col-12 col-md-6 col-form-pixel px-4">
+          <h2 class="bp-1">Emergency Contact and Medical Information</h2>
+
+          <form action="">
+            <div class="form-content">
+              <h4 class="form-title">Name</h4>
+
+              <input
+                type="text"
+                name="first"
+                id="first"
+                class="form-control-border box-first"
+              />
+              <label for="first" class="text-first">First </label>
+
+              <input
+                type="text"
+                name="last"
+                id="last"
+                class="form-control-border box-last"
+              />
+              <label for="last" class="text-last">Last</label>
+            </div>
+            <div class="form-content form-content-flex bp-1">
+              <div>
+                <h4 class="form-title">Gender</h4>
+
+                <select
+                  name="gender"
+                  id="gender-select"
+                  class= form-select mr-4"
+                >
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+              <div>
+                <h4 class="form-title">Date of Birth</h4>
+                <input
+                  type="text"
+                  name="mm"
+                  id="mm"
+                  class="form-control-border box-mm"
+                />
+                <label for="mm" class="text-mm">MM</label>
+
+                <span class="separateur">/</span>
+
+                <input
+                  type="text"
+                  name="dd"
+                  id="dd"
+                  class="form-control-border box-dd"
+                />
+                <label for="dd" class="text-dd">DD</label>
+                <span class="separateur">/</span>
+
+                <input
+                  type="text"
+                  name="yy"
+                  id="yy"
+                  class="form-control-border box-yyyy"
+                />
+                <label for="yy" class="text-yyyy">YYYY</label>
+              </div>
+            </div>
+            <h3>Emergency Contact</h3>
+            <div class="form-content-flex">
+              <div class="form-content pr-6">
+                <h4 class="form-title">Name</h4>
+
+                <input
+                  type="text"
+                  name="first-2"
+                  id="first-2"
+                  class="form-control-border box-first"
+                />
+                <label for="first-2" class="text-first">First </label>
+
+                <input
+                  type="text"
+                  name="last-2"
+                  id="last-2"
+                  class="form-control-border box-last"
+                />
+                <label for="last-2" class="text-last">Last</label>
+              </div>
+
+              <div class="form-content">
+                <h4 class="form-title">Relationship</h4>
+
+                <input
+                  type="text"
+                  name="relationship"
+                  id="relationship"
+                  class="form-control-border box-relationship"
+                />
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>

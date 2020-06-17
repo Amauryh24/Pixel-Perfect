@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/00-form-medical-information.scss"
+    ],
+    "names": [],
+    "file": "00-form-medical-information.css"
+}
