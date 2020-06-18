@@ -1,141 +1,37 @@
-.my-1 {
-  margin: 4px 0;
+.col-form-pixel {
+  max-width: 635px;
+  background-color: red;
 }
 
-.bp-1 {
-  border-bottom: 0.5px solid #cccccc;
+form label {
+  display: block;
 }
 
-.pr-6 {
-  padding-right: 110px !important;
-}
-
-.container-form {
-  font-size: 14px;
-}
-
-.container-form .col-form-goal img {
-  width: 70%;
-}
-
-.container-form .col-form-pixel {
-  max-width: 675px;
-}
-
-.container-form h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: 18px 10px;
-  margin: 0;
-  letter-spacing: 0.01em;
-}
-
-.container-form h3 {
-  font-size: 1.1em;
-  line-height: 1.1em;
-  margin: 0;
-  padding: 16px 10px 0px;
-}
-
-.container-form form .form-content {
-  padding: 12px 12px 22px;
-}
-
-.container-form form .form-content-flex {
+form .flex-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 30px;
 }
 
-.container-form form div {
-  position: relative;
+form .flex-block .flex-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.container-form form div .form-title {
-  font-size: 0.9em;
-  font-weight: 900;
-  letter-spacing: 0.04em;
-  margin: 2px 0px;
-  padding-top: 2px;
+form .box-size-1 {
+  width: 20px;
 }
 
-.container-form form div .form-control-border {
-  border: 1px solid #cccccc;
-  border-top: 1.4px solid #747474c4;
+form .box-size-2 {
+  width: 30px;
 }
 
-.container-form form div .box-first {
-  width: 68px;
-  height: 22px;
-}
-
-.container-form form div .text-first {
-  position: absolute;
-  top: 59px;
-  left: 12px;
-  font-size: 0.8em;
-}
-
-.container-form form div .box-last {
-  width: 118px;
-  height: 22px;
-}
-
-.container-form form div .text-last {
-  position: absolute;
-  top: 59px;
-  left: 83px;
-  font-size: 0.8em;
-}
-
-.container-form form div .form-select {
-  width: 286px;
-  height: 22px;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-}
-
-.container-form form div .box-mm,
-.container-form form div .box-dd {
-  width: 18px;
-  height: 22px;
-}
-
-.container-form form div .text-mm {
-  font-size: 0.8em;
-  position: absolute;
-  top: 46px;
-  left: 0px;
-}
-
-.container-form form div .text-dd {
-  font-size: 0.8em;
-  position: absolute;
-  top: 46px;
-  left: 36px;
-}
-
-.container-form form div .box-yyyy {
-  width: 35px;
-  height: 22px;
-}
-
-.container-form form div .separateur {
-  padding: 3px;
-  font-weight: bold;
-}
-
-.container-form form div .text-yyyy {
-  font-size: 0.8em;
-  position: absolute;
-  top: 46px;
-  left: 73px;
-}
-
-.container-form form div .box-relationship {
-  width: 290px;
-  height: 22px;
+form .box-size-3 {
+  width: 40px;
 }
 /*# sourceMappingURL=style.css.map */

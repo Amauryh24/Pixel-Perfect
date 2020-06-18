@@ -17,7 +17,7 @@
     <title>22 Composants de design</title>
   </head>
   <body>
-    <h1>22 Composants de design</h1>
+    <h1 class="text-center py-3">22 Composants de design</h1>
     <section class="container-fluid container-form p-0 p-md-0">
       <div class="row row-form">
         <div class="col-12 col-md-6 col-form-goal text-center">
@@ -26,104 +26,339 @@
             alt=""
           />
         </div>
-        <div class="col-12 col-md-6 col-form-pixel px-4">
+        <div class="col-12 col-md-6 col-form-pixel p-0 p-md-0">
           <h2 class="bp-1">Emergency Contact and Medical Information</h2>
 
           <form action="">
             <div class="form-content">
               <h4 class="form-title">Name</h4>
-
-              <input
-                type="text"
-                name="first"
-                id="first"
-                class="form-control-border box-first"
-              />
-              <label for="first" class="text-first">First </label>
-
-              <input
-                type="text"
-                name="last"
-                id="last"
-                class="form-control-border box-last"
-              />
-              <label for="last" class="text-last">Last</label>
-            </div>
-            <div class="form-content form-content-flex bp-1">
-              <div>
-                <h4 class="form-title">Gender</h4>
-
-                <select
-                  name="gender"
-                  id="gender-select"
-                  class= form-select mr-4"
-                >
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                </select>
-              </div>
-              <div>
-                <h4 class="form-title">Date of Birth</h4>
-                <input
-                  type="text"
-                  name="mm"
-                  id="mm"
-                  class="form-control-border box-mm"
-                />
-                <label for="mm" class="text-mm">MM</label>
-
-                <span class="separateur">/</span>
-
-                <input
-                  type="text"
-                  name="dd"
-                  id="dd"
-                  class="form-control-border box-dd"
-                />
-                <label for="dd" class="text-dd">DD</label>
-                <span class="separateur">/</span>
-
-                <input
-                  type="text"
-                  name="yy"
-                  id="yy"
-                  class="form-control-border box-yyyy"
-                />
-                <label for="yy" class="text-yyyy">YYYY</label>
-              </div>
-            </div>
-            <h3>Emergency Contact</h3>
-            <div class="form-content-flex">
-              <div class="form-content pr-6">
-                <h4 class="form-title">Name</h4>
-
-                <input
-                  type="text"
-                  name="first-2"
-                  id="first-2"
-                  class="form-control-border box-first"
-                />
-                <label for="first-2" class="text-first">First </label>
-
-                <input
-                  type="text"
-                  name="last-2"
-                  id="last-2"
-                  class="form-control-border box-last"
-                />
-                <label for="last-2" class="text-last">Last</label>
+              <div class="flex-block">
+                <div class="flex-item">
+                  <input
+                    type="text"
+                    name="first"
+                    id="first"
+                    class="form-control-border box-first"
+                  />
+                  <label for="first" class="text-first">First </label>
+                </div>
+                <div class="flex-item">
+                  <input
+                    type="text"
+                    name="last"
+                    id="last"
+                    class="form-control-border box-last"
+                  />
+                  <label for="last" class="text-last">Last</label>
+                </div>
               </div>
 
-              <div class="form-content">
-                <h4 class="form-title">Relationship</h4>
+              <div class="flex-block">
+                <div class="flex-item">
+                  <h4 class="form-title">Gender</h4>
+
+                  <select
+                    name="gender"
+                    id="gender-select"
+                    class="form-select mr-4"
+                  >
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+                <div class="flex-item">
+                  <h4 class="form-title">Date of Birth</h4>
+                  <div class="flex-block">
+                    <div class="flex-item">
+                      <input
+                        type="text"
+                        name="mm"
+                        id="mm"
+                        class="form-control-border box-size-1"
+                      />
+                      <label for="mm" class="text-mm">MM</label>
+                    </div>
+                    <span class="separateur">/</span>
+                    <div class="flex-item">
+                      <input
+                        type="text"
+                        name="dd"
+                        id="dd"
+                        class="form-control-border box-size-1"
+                      />
+                      <label for="dd" class="text-dd">DD</label>
+                    </div>
+
+                    <span class="separateur">/</span>
+                    <div class="flex-item">
+                      <input
+                        type="text"
+                        name="yy"
+                        id="yy"
+                        class="form-control-border box-size-3"
+                      />
+                      <label for="yy" class="text-yyyy">YYYY</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h3>Emergency Contact</h3>
+              <h4 class="form-title">Name</h4>
+
+              <div class="flex-block">
+                <div class="flex-item">
+                  <input
+                    type="text"
+                    name="first"
+                    id="first"
+                    class="form-control-border box-first"
+                  />
+                  <label for="first" class="text-first">First </label>
+                </div>
+                <div class="flex-item">
+                  <input
+                    type="text"
+                    name="last"
+                    id="last"
+                    class="form-control-border box-last"
+                  />
+                  <label for="last" class="text-last">Last</label>
+                </div>
+                <div class="flex-item">
+                  <h4 class="form-title">Relationship</h4>
+
+                  <input
+                    type="text"
+                    name="relationship"
+                    id="relationship"
+                    class="form-control-border box-relationship"
+                  />
+                </div>
+              </div>
+
+              <div class="flex-item">
+                <h4 class="form-title">Address</h4>
+                <input
+                  type="text"
+                  name="street"
+                  id="street"
+                  class="form-control-border box-street"
+                />
+                <label for="street" class="text-street">Street Address </label>
 
                 <input
                   type="text"
-                  name="relationship"
-                  id="relationship"
-                  class="form-control-border box-relationship"
+                  name="street-2"
+                  id="street-2"
+                  class="form-control-border box-street-2"
                 />
+                <label for="street-2" class="text-street-2"
+                  >Address Line 2
+                </label>
+
+                <div class="flex-block">
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="city"
+                      id="city"
+                      class="form-control-border box-city"
+                    />
+                    <label for="city" class="text-city">City </label>
+                  </div>
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="state"
+                      id="state"
+                      class="form-control-border box-state"
+                    />
+                    <label for="state" class="text-state"
+                      >State / Province / Region
+                    </label>
+                  </div>
+                </div>
+                <div class="flex-block">
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="postal"
+                      id="postal"
+                      class="form-control-border box-postal"
+                    />
+                    <label for="postal" class="text-postal"
+                      >Postal / Zip Code</label
+                    >
+                  </div>
+                  <div class="flex-item">
+                    <select
+                      name="country"
+                      id="country-select"
+                      class="form-select mr-4"
+                    >
+                      <option value="Belgique">Belgique</option>
+                      <option value="France">France</option>
+                    </select>
+                    <label for="postal" class="text-postal">Country</label>
+                  </div>
+                </div>
               </div>
+
+              <div class="flex-block">
+                <div class="flex-item">
+                  <h4 class="form-title">Date of Birth</h4>
+                  <div class="flex-block">
+                    <div class="flex-item">
+                      <input
+                        type="text"
+                        name="mm"
+                        id="mm"
+                        class="form-control-border box-size-2"
+                      />
+                      <label for="mm" class="text-mm">###</label>
+                    </div>
+                    <span class="separateur">/</span>
+                    <div class="flex-item">
+                      <input
+                        type="text"
+                        name="dd"
+                        id="dd"
+                        class="form-control-border box-size-2"
+                      />
+                      <label for="dd" class="text-dd">###</label>
+                    </div>
+
+                    <span class="separateur">/</span>
+                    <div class="flex-item">
+                      <input
+                        type="text"
+                        name="yy"
+                        id="yy"
+                        class="form-control-border box-size-3"
+                      />
+                      <label for="yy" class="text-yyyy">####</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex-item">
+                  <h4 class="form-title">Work Phone</h4>
+                  <div class="flex-block">
+                    <div class="flex-item">
+                      <input
+                        type="text"
+                        name="mm"
+                        id="mm"
+                        class="form-control-border box-size-2"
+                      />
+                      <label for="mm" class="text-mm">###</label>
+                    </div>
+                    <span class="separateur">/</span>
+                    <div class="flex-item">
+                      <input
+                        type="text"
+                        name="dd"
+                        id="dd"
+                        class="form-control-border box-size-2"
+                      />
+                      <label for="dd" class="text-dd">###</label>
+                    </div>
+
+                    <span class="separateur">/</span>
+                    <div class="flex-item">
+                      <input
+                        type="text"
+                        name="yy"
+                        id="yy"
+                        class="form-control-border box-size-3"
+                      />
+                      <label for="yy" class="text-yyyy">####</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h3>Medical Information</h3>
+              <div class="flex-item">
+                <h4 class="form-title">Hospital / Clinic Preference</h4>
+                <input
+                  type="text"
+                  name="street"
+                  id="street"
+                  class="form-control-border box-street"
+                />
+
+                <div class="flex-block">
+                  <div class="flex-item">
+                    <h4 class="form-title">Insurance Company</h4>
+
+                    <input
+                      type="text"
+                      name="city"
+                      id="city"
+                      class="form-control-border box-city"
+                    />
+                  </div>
+                  <div class="flex-item">
+                    <h4 class="form-title">Policy Number</h4>
+
+                    <input
+                      type="text"
+                      name="state"
+                      id="state"
+                      class="form-control-border box-state"
+                    />
+                  </div>
+                </div>
+                <div class="flex-block">
+                  <div class="flex-item">
+                    <h4 class="form-title">Physician's Name</h4>
+                    <input
+                      type="text"
+                      name="postal"
+                      id="postal"
+                      class="form-control-border box-postal"
+                    />
+                  </div>
+                  <div class="flex-item">
+                    <h4 class="form-title">Work Phone</h4>
+                    <div class="flex-block">
+                      <div class="flex-item">
+                        <input
+                          type="text"
+                          name="mm"
+                          id="mm"
+                          class="form-control-border box-size-2"
+                        />
+                        <label for="mm" class="text-mm">###</label>
+                      </div>
+                      <span class="separateur">/</span>
+                      <div class="flex-item">
+                        <input
+                          type="text"
+                          name="dd"
+                          id="dd"
+                          class="form-control-border box-size-2"
+                        />
+                        <label for="dd" class="text-dd">###</label>
+                      </div>
+
+                      <span class="separateur">/</span>
+                      <div class="flex-item">
+                        <input
+                          type="text"
+                          name="yy"
+                          id="yy"
+                          class="form-control-border box-size-3"
+                        />
+                        <label for="yy" class="text-yyyy">####</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Allergies / Special Health Considerations</h4>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <button type="submit">Submit</button>
             </div>
           </form>
         </div>
