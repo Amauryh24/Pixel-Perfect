@@ -1,1 +1,109 @@
+.col-form-pixel {
+  max-width: 642px;
+  h2 {
+    font-size: 1.4em;
+    letter-spacing: 0.01em;
+    border-bottom: 0.5px solid #ccc;
+    padding-bottom: 16px;
+    margin: 0;
+  }
 
+  #emergency {
+    padding: 20px;
+    h3 {
+      font-size: 1em;
+      margin: 0;
+      padding: 12px 0;
+      border-top: 0.5px solid #ccc;
+    }
+    h4 {
+      font-weight: bold;
+      font-size: 0.8em;
+      margin-bottom: 4px;
+      letter-spacing: 0.02em;
+      padding-top: 10px;
+    }
+    label {
+      display: block;
+      font-size: 0.7em;
+      margin: 0;
+      padding: 2px 0 10px;
+    }
+
+    .flex-block {
+      display: flex;
+
+      .flex-item {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .flex-align-block {
+      align-items: flex-end;
+    }
+    .flex-align-item {
+      align-self: flex-end;
+    }
+
+    .form-control-border {
+      border: 1px solid #cccccc;
+      border-top: 1.5px solid #7474748f;
+    }
+    .box-height {
+      height: 22px;
+    }
+    .box-height-1 {
+      height: 140px;
+    }
+    .box-size-1 {
+      width: 18px;
+    }
+    .box-size-2 {
+      width: 25px;
+    }
+    .box-size-3 {
+      width: 35px;
+    }
+    .box-size-4 {
+      width: 68px;
+    }
+    .box-size-5 {
+      width: 116px;
+    }
+    .box-size-6 {
+      width: 288px;
+    }
+    .box-size-100 {
+      width: 100%;
+    }
+
+    .m-right-1 {
+      margin-right: 5px;
+    }
+    .m-right-2 {
+      margin-right: 25px;
+    }
+    .m-right-3 {
+      margin-right: 124px;
+    }
+    .m-duo-x {
+      margin: 0 5px;
+    }
+
+    .p-bottom-1 {
+      padding-bottom: 6px;
+    }
+    .round {
+      border-radius: 5px;
+    }
+    .bg-color-white {
+      background-color: white;
+    }
+    .submit {
+      border: 0.5px solid #ccc;
+
+      font-size: 0.8em;
+      margin: 15px 0;
+    }
+  }
+}
