@@ -26,14 +26,14 @@
   font-size: 0.8em;
   margin-bottom: 4px;
   letter-spacing: 0.02em;
-  padding-top: 12px;
+  padding-top: 10px;
 }
 
 .col-form-pixel #emergency label {
   display: block;
   font-size: 0.7em;
   margin: 0;
-  padding: 0px 0 10px;
+  padding: 2px 0 10px;
 }
 
 .col-form-pixel #emergency .flex-block {
@@ -73,7 +73,7 @@
 }
 
 .col-form-pixel #emergency .box-height-1 {
-  height: 130px;
+  height: 140px;
 }
 
 .col-form-pixel #emergency .box-size-1 {
@@ -121,6 +121,20 @@
 }
 
 .col-form-pixel #emergency .p-bottom-1 {
-  padding-bottom: 10px;
+  padding-bottom: 6px;
+}
+
+.col-form-pixel #emergency .round {
+  border-radius: 5px;
+}
+
+.col-form-pixel #emergency .bg-color-white {
+  background-color: white;
+}
+
+.col-form-pixel #emergency .submit {
+  border: 0.5px solid #ccc;
+  font-size: 0.8em;
+  margin: 15px 0;
 }
 /*# sourceMappingURL=style.css.map */

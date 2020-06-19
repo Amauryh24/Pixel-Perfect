@@ -1,3 +1,5 @@
+// // @import "00-form-medical-information.scss";
+
 .col-form-pixel {
   max-width: 642px;
   h2 {
@@ -21,13 +23,13 @@
       font-size: 0.8em;
       margin-bottom: 4px;
       letter-spacing: 0.02em;
-      padding-top: 12px;
+      padding-top: 10px;
     }
     label {
       display: block;
       font-size: 0.7em;
       margin: 0;
-      padding: 0px 0 10px;
+      padding: 2px 0 10px;
     }
 
     .flex-block {
@@ -53,7 +55,7 @@
       height: 22px;
     }
     .box-height-1 {
-      height: 130px;
+      height: 140px;
     }
     .box-size-1 {
       width: 18px;
@@ -91,158 +93,19 @@
     }
 
     .p-bottom-1 {
-      padding-bottom: 10px;
+      padding-bottom: 6px;
+    }
+    .round {
+      border-radius: 5px;
+    }
+    .bg-color-white {
+      background-color: white;
+    }
+    .submit {
+      border: 0.5px solid #ccc;
+
+      font-size: 0.8em;
+      margin: 15px 0;
     }
   }
 }
-
-// // @import "00-form-medical-information.scss";
-// .my-1 {
-//   margin: 4px 0;
-// }
-// .bp-1 {
-//   border-bottom: 0.5px solid #cccccc;
-// }
-// .pr-6 {
-//   padding-right: 110px !important;
-// }
-// .pb-6 {
-//   padding-bottom: 34px !important;
-// }
-
-//   .col-form-pixel {
-//     max-width: 675px;
-//   }
-//   h2 {
-//     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-//     font-size: 1.5em;
-//     font-weight: bold;
-//     padding: 18px 10px;
-//     margin: 0;
-//     letter-spacing: 0.01em;
-//   }
-//   h3 {
-//     font-size: 1.1em;
-//     line-height: 1.1em;
-//     margin: 0;
-//     padding: 16px 10px 0px;
-//   }
-
-//   form {
-//     .form-content {
-//       padding: 12px 12px 22px;
-//     }
-
-//     .form-content-flex {
-//       display: flex;
-//     }
-//     div {
-//       position: relative;
-
-//       .form-title {
-//         font-size: 0.9em;
-//         font-weight: 900;
-//         letter-spacing: 0.04em;
-//         margin: 2px 0px;
-//         padding-top: 2px;
-//       }
-//
-//       .box-first {
-//         width: 68px;
-//         height: 22px;
-//       }
-//       .text-first {
-//         position: absolute;
-//         top: 59px;
-//         left: 12px;
-//         font-size: 0.8em;
-//       }
-//       .box-last {
-//         width: 118px;
-//         height: 22px;
-//       }
-//       .text-last {
-//         position: absolute;
-//         top: 59px;
-//         left: 83px;
-//         font-size: 0.8em;
-//       }
-
-//       .form-select {
-//         width: 286px;
-//         height: 22px;
-//         border-radius: 4px;
-//         background-color: #f8f8f8;
-//       }
-
-//       .box-mm,
-//       .box-dd {
-//         width: 18px;
-//         height: 22px;
-//       }
-//       .text-mm {
-//         font-size: 0.8em;
-//         position: absolute;
-//         top: 46px;
-//         left: 0px;
-//       }
-//       .text-dd {
-//         font-size: 0.8em;
-//         position: absolute;
-//         top: 46px;
-//         left: 36px;
-//       }
-//       .box-yyyy {
-//         width: 35px;
-//         height: 22px;
-//       }
-//       .separateur {
-//         padding: 3px;
-//         font-weight: bold;
-//       }
-//       .text-yyyy {
-//         font-size: 0.8em;
-//         position: absolute;
-//         top: 46px;
-//         left: 73px;
-//       }
-//       .box-relationship {
-//         width: 290px;
-//         height: 22px;
-//       }
-//       .box-street,
-//       .box-street-2 {
-//         width: 100%;
-//         height: 22px;
-//       }
-//       .text-street,
-//       .text-street-2 {
-//         font-size: 0.9em;
-//         display: block;
-//         margin-bottom: 12px;
-//       }
-//       .box-city {
-//         width: 48%;
-//         height: 22px;
-//         margin-right: 20px;
-//       }
-//       .text-city {
-//         position: absolute;
-//         display: inline-block;
-//         top: 166px;
-//         left: 11px;
-//         font-size: 0.9em;
-//       }
-//       .text-state {
-//         position: absolute;
-//         top: 167px;
-//         left: 323px;
-//         font-size: 0.9em;
-//       }
-//       .box-state {
-//         width: 48%;
-//         height: 22px;
-//       }
-//     }
-//   }
-// }
