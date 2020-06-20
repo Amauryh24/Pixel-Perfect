@@ -1,5 +1,5 @@
 .col-form-pixel {
-  max-width: 642px;
+  max-width: 672px;
   h2 {
     font-size: 1.4em;
     letter-spacing: 0.01em;
@@ -10,24 +10,25 @@
 
   #emergency {
     padding: 20px;
+    border-left: 0.5px solid #ccc;
     h3 {
       font-size: 1em;
       margin: 0;
-      padding: 12px 0;
+      padding-top: 15px;
       border-top: 0.5px solid #ccc;
     }
     h4 {
       font-weight: bold;
       font-size: 0.8em;
-      margin-bottom: 4px;
+      margin-bottom: 5px;
       letter-spacing: 0.02em;
-      padding-top: 10px;
+      padding-top: 11px;
     }
     label {
       display: block;
       font-size: 0.7em;
       margin: 0;
-      padding: 2px 0 10px;
+      padding: 2px 0 12px;
     }
 
     .flex-block {
@@ -53,7 +54,7 @@
       height: 22px;
     }
     .box-height-1 {
-      height: 140px;
+      height: 135px;
     }
     .box-size-1 {
       width: 18px;
@@ -74,7 +75,7 @@
       width: 288px;
     }
     .box-size-100 {
-      width: 100%;
+      width: 600px;
     }
 
     .m-right-1 {
@@ -89,7 +90,9 @@
     .m-duo-x {
       margin: 0 5px;
     }
-
+    .p-top-0 {
+      padding-top: 0;
+    }
     .p-bottom-1 {
       padding-bottom: 6px;
     }
@@ -104,6 +107,29 @@
 
       font-size: 0.8em;
       margin: 15px 0;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .col-form-goal {
+    img {
+      width: 100%;
+    }
+  }
+  .col-form-pixel {
+    h2 {
+      font-size: 1.2em;
+    }
+    #emergency {
+      .box-size-6 {
+        width: 200px;
+      }
+      .box-size-100 {
+        width: 425px;
+      }
+      .m-right-3 {
+        margin-right: 36px;
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 .col-form-pixel {
-  max-width: 642px;
+  max-width: 672px;
 }
 
 .col-form-pixel h2 {
@@ -12,28 +12,29 @@
 
 .col-form-pixel #emergency {
   padding: 20px;
+  border-left: 0.5px solid #ccc;
 }
 
 .col-form-pixel #emergency h3 {
   font-size: 1em;
   margin: 0;
-  padding: 12px 0;
+  padding-top: 15px;
   border-top: 0.5px solid #ccc;
 }
 
 .col-form-pixel #emergency h4 {
   font-weight: bold;
   font-size: 0.8em;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
   letter-spacing: 0.02em;
-  padding-top: 10px;
+  padding-top: 11px;
 }
 
 .col-form-pixel #emergency label {
   display: block;
   font-size: 0.7em;
   margin: 0;
-  padding: 2px 0 10px;
+  padding: 2px 0 12px;
 }
 
 .col-form-pixel #emergency .flex-block {
@@ -73,7 +74,7 @@
 }
 
 .col-form-pixel #emergency .box-height-1 {
-  height: 140px;
+  height: 135px;
 }
 
 .col-form-pixel #emergency .box-size-1 {
@@ -101,7 +102,7 @@
 }
 
 .col-form-pixel #emergency .box-size-100 {
-  width: 100%;
+  width: 600px;
 }
 
 .col-form-pixel #emergency .m-right-1 {
@@ -120,6 +121,10 @@
   margin: 0 5px;
 }
 
+.col-form-pixel #emergency .p-top-0 {
+  padding-top: 0;
+}
+
 .col-form-pixel #emergency .p-bottom-1 {
   padding-bottom: 6px;
 }
@@ -136,6 +141,24 @@
   border: 0.5px solid #ccc;
   font-size: 0.8em;
   margin: 15px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .col-form-goal img {
+    width: 100%;
+  }
+  .col-form-pixel h2 {
+    font-size: 1.2em;
+  }
+  .col-form-pixel #emergency .box-size-6 {
+    width: 200px;
+  }
+  .col-form-pixel #emergency .box-size-100 {
+    width: 425px;
+  }
+  .col-form-pixel #emergency .m-right-3 {
+    margin-right: 36px;
+  }
 }
 
 .container-footer {
