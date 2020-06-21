@@ -177,7 +177,7 @@
     height: 14px;
   }
   .col-form-pixel #emergency .box-height-1 {
-    height: 135px;
+    height: 80px;
   }
   .col-form-pixel #emergency .box-size-1 {
     width: 18px;
@@ -195,7 +195,7 @@
     width: 55px;
   }
   .col-form-pixel #emergency .box-size-6 {
-    width: 137px;
+    width: 164px;
   }
   .col-form-pixel #emergency .box-size-100 {
     max-width: 100%;
@@ -207,7 +207,7 @@
     margin-right: 25px;
   }
   .col-form-pixel #emergency .m-right-3 {
-    margin-right: 62px;
+    margin-right: 90px;
   }
   .col-form-pixel #emergency .m-duo-x {
     margin: 0 5px;
@@ -365,14 +365,14 @@
 }
 
 .col-pagination-pixel .pagination-content .flex-block li:first-child {
-  padding-left: 5px;
+  padding-left: 2px;
 }
 
 .col-pagination-pixel .pagination-content .flex-block li a {
   font-weight: bold;
   padding: 6px;
   display: inline-block;
-  width: 72px;
+  width: 71px;
   text-decoration: none;
   background-color: #3c444e;
   color: white;
@@ -402,15 +402,32 @@
 }
 
 @media screen and (max-width: 500px) {
+  .col-pagination-goal img {
+    width: 100%;
+  }
+  .col-pagination-pixel .pagination-content {
+    max-width: 100%;
+    height: 48px;
+  }
   .col-pagination-pixel .pagination-content .flex-block {
-    padding-right: 0px;
+    height: 100%;
+    padding: 0;
+  }
+  .col-pagination-pixel .pagination-content .flex-block li {
+    padding: 1.5px;
+    text-align: center;
+  }
+  .col-pagination-pixel .pagination-content .flex-block li:first-child {
+    padding-left: 0px;
   }
   .col-pagination-pixel .pagination-content .flex-block li a {
-    padding: 6px;
-    width: 36px;
+    font-size: 0.5em;
+    padding: 4px;
+    width: 37px;
+    border-radius: 2px;
   }
   .col-pagination-pixel .pagination-content .flex-block li .btn-large {
-    width: 52px;
+    width: 41px;
   }
 }
 
@@ -485,6 +502,9 @@
 }
 
 @media all and (max-width: 500px) {
+  .col-zone-benefits-grid-goal img {
+    width: 100%;
+  }
   .col-zone-benefits-grid-pixel {
     max-width: 100%;
     max-height: 366px;
@@ -541,6 +561,8 @@
     font-size: 1.6em;
     letter-spacing: 0.03em;
     color: #7fbf94;
+    margin: 0;
+    padding-bottom: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

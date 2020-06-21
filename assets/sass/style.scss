@@ -57,6 +57,11 @@
 }
 
 @media all and (max-width: 500px) {
+  .col-zone-benefits-grid-goal {
+    img {
+      width: 100%;
+    }
+  }
   .col-zone-benefits-grid-pixel {
     max-width: 100%;
 
@@ -105,6 +110,8 @@
         font-size: 1.6em;
         letter-spacing: 0.03em;
         color: #7fbf94;
+        margin: 0;
+        padding-bottom: 20px;
       }
     }
   }
