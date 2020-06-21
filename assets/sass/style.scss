@@ -1,70 +1,56 @@
 @import "00-form-medical-information.scss";
 @import "01-footer-social.scss";
+@import "02-pagination.scss";
 
-.col-pagination-pixel {
-  .pagination-content {
-    max-width: 763px;
-    height: 90px;
-    margin: 0 auto;
-    background-color: #e5e5e5;
-    .flex-block {
+.col-zone-benefits-grid-pixel {
+  max-width: 1112px;
+  max-height: 366px;
+  margin: 0 auto;
+  min-width: 50%;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+  .flex-block {
+    display: flex;
+    justify-content: center;
+    .flex-item {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-direction: column;
+    }
+    li {
+      max-width: 25%;
+      min-width: 20%;
 
-      height: 100%;
-      padding-right: 12px;
-      li {
-        padding: 3px;
-        text-align: center;
-        &:first-child {
-          padding-left: 5px;
-        }
-        a {
-          font-weight: bold;
-          padding: 6px;
-          display: inline-block;
-          width: 72px;
-          text-decoration: none;
-          background-color: #3c444e;
-          color: white;
-          border-radius: 5px;
+      padding: 22px;
 
-          &:hover {
-            background-color: #3aa1e7;
-          }
+      .size-content {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        img {
+          position: absolute;
+          top: 50%;
+          right: 50%;
+
+          transform: translate(50%, -50%);
         }
-        .btn-large {
-          width: 80px;
+        #grunt {
+          width: 66%;
         }
-        &:first-child a {
-          background-color: transparent;
-          color: black;
+        #gulp {
+          width: 35%;
         }
-        &:nth-child(5) a {
-          background-color: transparent;
-          color: black;
+        #octocat {
+          width: 80%;
+        }
+        #npm {
+          width: 69%;
         }
       }
     }
-  }
-}
-@media screen and (max-width: 500px) {
-  .col-pagination-pixel {
-    .pagination-content {
-      .flex-block {
-        padding-right: 0px;
-
-        li {
-          a {
-            padding: 6px;
-            width: 36px;
-          }
-          .btn-large {
-            width: 52px;
-          }
-        }
-      }
+    h3 {
+      font-size: 1.6em;
+      letter-spacing: 0.03em;
+      color: #7fbf94;
     }
   }
 }
