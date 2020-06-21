@@ -143,21 +143,92 @@
   margin: 15px 0;
 }
 
-@media screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
   .col-form-goal img {
     width: 100%;
   }
+  .col-form-pixel {
+    max-width: 100%;
+  }
   .col-form-pixel h2 {
-    font-size: 1.2em;
+    font-size: 0.7em;
+    padding-bottom: 4px;
+  }
+  .col-form-pixel #emergency {
+    padding: 10px;
+  }
+  .col-form-pixel #emergency h3 {
+    font-size: 0.8em;
+    margin: 0;
+    padding-top: 7px;
+    border-top: 0.5px solid #ccc;
+  }
+  .col-form-pixel #emergency h4 {
+    font-size: 0.6em;
+    margin-bottom: 2px;
+    padding-top: 5px;
+  }
+  .col-form-pixel #emergency label {
+    font-size: 0.5em;
+    padding: 2px 0 6px;
+  }
+  .col-form-pixel #emergency .box-height {
+    height: 14px;
+  }
+  .col-form-pixel #emergency .box-height-1 {
+    height: 135px;
+  }
+  .col-form-pixel #emergency .box-size-1 {
+    width: 18px;
+  }
+  .col-form-pixel #emergency .box-size-2 {
+    width: 25px;
+  }
+  .col-form-pixel #emergency .box-size-3 {
+    width: 35px;
+  }
+  .col-form-pixel #emergency .box-size-4 {
+    width: 40px;
+  }
+  .col-form-pixel #emergency .box-size-5 {
+    width: 55px;
   }
   .col-form-pixel #emergency .box-size-6 {
-    width: 200px;
+    width: 137px;
   }
   .col-form-pixel #emergency .box-size-100 {
-    width: 425px;
+    max-width: 100%;
+  }
+  .col-form-pixel #emergency .m-right-1 {
+    margin-right: 5px;
+  }
+  .col-form-pixel #emergency .m-right-2 {
+    margin-right: 25px;
   }
   .col-form-pixel #emergency .m-right-3 {
-    margin-right: 36px;
+    margin-right: 62px;
+  }
+  .col-form-pixel #emergency .m-duo-x {
+    margin: 0 5px;
+  }
+  .col-form-pixel #emergency .p-top-0 {
+    padding-top: 0;
+  }
+  .col-form-pixel #emergency .p-bottom-1 {
+    padding-bottom: 6px;
+  }
+  .col-form-pixel #emergency .round {
+    border-radius: 5px;
+  }
+  .col-form-pixel #emergency .bg-color-white {
+    background-color: white;
+  }
+  .col-form-pixel #emergency .submit {
+    font-size: 0.5em;
+    margin: 7px 0;
+  }
+  .col-form-pixel #emergency select {
+    font-size: 0.5em;
   }
 }
 
