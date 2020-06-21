@@ -31,8 +31,12 @@
             background-color: #3aa1e7;
           }
         }
+
         .btn-large {
           width: 80px;
+        }
+        .btn-is-active {
+          background-color: #3aa1e7;
         }
         &:first-child a {
           background-color: transparent;

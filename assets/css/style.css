@@ -273,6 +273,10 @@
   width: 80px;
 }
 
+.col-pagination-pixel .pagination-content .flex-block li .btn-is-active {
+  background-color: #3aa1e7;
+}
+
 .col-pagination-pixel .pagination-content .flex-block li:first-child a {
   background-color: transparent;
   color: black;
@@ -302,7 +306,7 @@
   margin: 0 auto;
   min-width: 50%;
   font-size: 15px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.03em;
 }
 
 .col-zone-benefits-grid-pixel .flex-block {
@@ -364,5 +368,65 @@
   font-size: 1.6em;
   letter-spacing: 0.03em;
   color: #7fbf94;
+}
+
+@media all and (max-width: 500px) {
+  .col-zone-benefits-grid-pixel {
+    max-width: 100%;
+    max-height: 366px;
+    margin: 0 auto;
+    min-width: 100%;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+  }
+  .col-zone-benefits-grid-pixel .flex-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .col-zone-benefits-grid-pixel .flex-block .flex-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .col-zone-benefits-grid-pixel .flex-block li {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .col-zone-benefits-grid-pixel .flex-block li .size-content {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  .col-zone-benefits-grid-pixel .flex-block li .size-content img {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+  }
+  .col-zone-benefits-grid-pixel .flex-block li .size-content #grunt {
+    width: 66%;
+  }
+  .col-zone-benefits-grid-pixel .flex-block li .size-content #gulp {
+    width: 35%;
+  }
+  .col-zone-benefits-grid-pixel .flex-block li .size-content #octocat {
+    width: 80%;
+  }
+  .col-zone-benefits-grid-pixel .flex-block li .size-content #npm {
+    width: 69%;
+  }
+  .col-zone-benefits-grid-pixel .flex-block h3 {
+    font-size: 1.6em;
+    letter-spacing: 0.03em;
+    color: #7fbf94;
+  }
 }
 /*# sourceMappingURL=style.css.map */

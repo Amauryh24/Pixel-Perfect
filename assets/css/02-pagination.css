@@ -47,6 +47,10 @@
   width: 80px;
 }
 
+.col-pagination-pixel .pagination-content .flex-block li .btn-is-active {
+  background-color: #3aa1e7;
+}
+
 .col-pagination-pixel .pagination-content .flex-block li:first-child a {
   background-color: transparent;
   color: black;
