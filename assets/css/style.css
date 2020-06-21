@@ -149,6 +149,7 @@
   }
   .col-form-pixel {
     max-width: 100%;
+    line-height: 0.9em;
   }
   .col-form-pixel h2 {
     font-size: 0.7em;
@@ -166,11 +167,11 @@
   .col-form-pixel #emergency h4 {
     font-size: 0.6em;
     margin-bottom: 2px;
-    padding-top: 5px;
+    padding-top: 10px;
   }
   .col-form-pixel #emergency label {
     font-size: 0.5em;
-    padding: 2px 0 6px;
+    padding: 0px 0 10px;
   }
   .col-form-pixel #emergency .box-height {
     height: 14px;
@@ -218,10 +219,7 @@
     padding-bottom: 6px;
   }
   .col-form-pixel #emergency .round {
-    border-radius: 5px;
-  }
-  .col-form-pixel #emergency .bg-color-white {
-    background-color: white;
+    border-radius: 3px;
   }
   .col-form-pixel #emergency .submit {
     font-size: 0.5em;
