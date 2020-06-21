@@ -54,4 +54,50 @@ $footer-icon-color: #7b7974;
       width: 100%;
     }
   }
+  .container-footer {
+    font-size: 0.5em;
+
+    .col-footer-pixel {
+      max-width: 1221px;
+      height: 57px;
+      margin: 0 auto;
+      background-color: #f8f3e9;
+      .pad-icon {
+        a {
+          color: $footer-icon-color;
+          padding: 0.85em;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+      .pad-text {
+        a {
+          color: $footer-text-color;
+
+          font-size: 0.95em;
+          padding: 0.8em;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    p {
+      margin: 0 0 0 10px;
+    }
+    ul {
+      margin: 0 0 0 18px;
+    }
+    .flex-block {
+      display: flex;
+    }
+    .flex-justify-content-between {
+      justify-content: space-between;
+    }
+    .flex-item-center {
+      align-items: center;
+    }
+  }
 }
