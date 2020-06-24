@@ -613,7 +613,7 @@ header#nav ul li:last-child a {
 .col-zone-related-link-pixel ul li {
   width: 50%;
   clear: both;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 
 .col-zone-related-link-pixel ul li h3 {
@@ -621,6 +621,7 @@ header#nav ul li:last-child a {
   height: 20px;
   font-weight: bold;
   overflow: hidden;
+  margin-bottom: 5px;
 }
 
 .col-zone-related-link-pixel ul li h4 {
