@@ -1,0 +1,86 @@
+.col-zone-cards-pixel {
+  max-width: 1055px;
+  margin: auto;
+  padding: 0 0 0 25px;
+  font-size: 15px;
+  position: relative;
+}
+
+.col-zone-cards-pixel h3 {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #484848;
+  display: inline-block;
+  margin-bottom: 35px;
+}
+
+.col-zone-cards-pixel .plus {
+  display: inline-block;
+  width: 85%;
+  text-align: end;
+}
+
+.col-zone-cards-pixel .plus a {
+  color: black;
+}
+
+.col-zone-cards-pixel .flex-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col-zone-cards-pixel .flex-block li {
+  width: 194px;
+  margin-right: 15px;
+}
+
+.col-zone-cards-pixel .flex-block li:last-child {
+  margin-right: 0px;
+}
+
+.col-zone-cards-pixel .flex-block li .img-content {
+  width: 193px;
+  height: 292px;
+}
+
+.col-zone-cards-pixel .flex-block li .img-content img {
+  width: 100%;
+  margin: 0;
+}
+
+.col-zone-cards-pixel .flex-block li p {
+  font-size: 0.95em;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  letter-spacing: 0.03em;
+}
+
+.col-zone-cards-pixel .flex-block li p span {
+  font-weight: bold;
+  color: #484848;
+}
+
+.col-zone-cards-pixel .flex-block li .com-content {
+  font-size: 0.75em;
+  letter-spacing: 0.02em;
+}
+
+.col-zone-cards-pixel .flex-block li .com-content .star {
+  color: #45a097;
+  font-size: 1em;
+  padding-right: 3px;
+}
+
+.col-zone-cards-pixel .flex-block li .com-content .star i {
+  padding: 1px;
+}
+
+.col-zone-cards-pixel .next {
+  color: black;
+  font-size: 2em;
+  position: absolute;
+  top: 230px;
+  right: -30px;
+}
+/*# sourceMappingURL=04-zone-cards.css.map */

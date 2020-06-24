@@ -1,0 +1,31 @@
+.col-zone-cta-pixel {
+  $primary-color: #75ba8c;
+  max-width: 1423px;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 0.5px solid #ccc;
+  border-bottom: 0.5px solid #ccc;
+  padding: 60px 0;
+
+  h2 {
+    font-size: 4em;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    a {
+      color: $primary-color;
+    }
+  }
+  .button-cta {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding: 1.2em 2em;
+    border-radius: 3px;
+    background-color: $primary-color;
+    color: white;
+    margin-top: 25px;
+    display: inline-block;
+  }
+}

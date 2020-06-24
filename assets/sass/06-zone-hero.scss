@@ -1,0 +1,29 @@
+.col-zone-hero-pixel {
+  background: url(../img/hero-image.jpg) no-repeat 340px -89px;
+  background-size: 76%;
+  max-width: 1425px;
+  height: 778px;
+  margin: 0 auto;
+  h2 {
+    padding-top: 100px;
+    font-size: 3em;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .content-size {
+    width: 395px;
+    margin-left: 100px;
+  }
+  p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding-bottom: 30px;
+  }
+  a {
+    font-size: 1.2em;
+    background-color: #e5b83f;
+    color: black;
+    padding: 1.2em;
+  }
+}
