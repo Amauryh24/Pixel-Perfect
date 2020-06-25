@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/11-ecommerce-catalog.scss"
+    ],
+    "names": [],
+    "file": "11-ecommerce-catalog.css"
+}

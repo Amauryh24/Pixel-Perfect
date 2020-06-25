@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/14-layout-staff.scss"
+    ],
+    "names": [],
+    "file": "14-layout-staff.css"
+}

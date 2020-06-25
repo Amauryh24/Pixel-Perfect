@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/15-card-small.scss"
+    ],
+    "names": [],
+    "file": "15-card-small.css"
+}

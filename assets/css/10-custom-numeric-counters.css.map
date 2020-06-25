@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/10-custom-numeric-counters.scss"
+    ],
+    "names": [],
+    "file": "10-custom-numeric-counters.css"
+}
