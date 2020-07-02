@@ -279,3 +279,23 @@
     }
   }
 }
+
+.col-layout-staff-goal {
+  img {
+    width: 100%;
+  }
+}
+.col-layout-staff-pixel {
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    li {
+      width: 25%;
+      padding: 25px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -956,4 +956,28 @@ header#nav ul li:last-child a {
   right: -20px;
   left: -20px;
 }
+
+.col-layout-staff-goal img {
+  width: 100%;
+}
+
+.col-layout-staff-pixel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  text-align: center;
+}
+
+.col-layout-staff-pixel ul li {
+  width: 25%;
+  padding: 25px;
+}
+
+.col-layout-staff-pixel ul li img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
