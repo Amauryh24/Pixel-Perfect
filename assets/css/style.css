@@ -853,4 +853,34 @@ header#nav ul li:last-child a {
   border-radius: 4px;
   text-align: center;
 }
+
+.col-ui-chart-pixel {
+  background-color: #ccc;
+  max-width: 505px;
+  margin: auto;
+  text-align: center;
+}
+
+.col-ui-chart-pixel tr {
+  border-bottom: 1px solid green;
+  font-size: 0.7em;
+}
+
+.col-ui-chart-pixel tr .date-control {
+  width: 108px;
+  border: none;
+  text-align: left;
+}
+
+.col-ui-chart-pixel tr td {
+  width: 50px;
+  height: 28px;
+  background-color: chartreuse;
+  border: 2px solid white;
+  padding: 5px 0;
+}
+
+.col-ui-chart-pixel tr .blue-100 {
+  background-color: red;
+}
 /*# sourceMappingURL=style.css.map */
