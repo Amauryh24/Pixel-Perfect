@@ -1,1 +1,105 @@
-/* No CSS *//*# sourceMappingURL=11-ecommerce-catalog.css.map */
+.col-ecommerce-catalog-pixel {
+  max-width: 1231px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.col-ecommerce-catalog-pixel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-left: 1px solid #d8d8d8;
+}
+
+.col-ecommerce-catalog-pixel ul li {
+  width: 307px;
+  border-right: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 25px;
+  position: relative;
+}
+
+.col-ecommerce-catalog-pixel ul li .deal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ce4442;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.col-ecommerce-catalog-pixel ul li .deal span {
+  display: inline-block;
+  background-color: #ce4442;
+  color: white;
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.col-ecommerce-catalog-pixel ul li .content-img {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.col-ecommerce-catalog-pixel ul li .content-img img {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.col-ecommerce-catalog-pixel ul li p {
+  font-size: 0.8em;
+}
+
+.col-ecommerce-catalog-pixel ul li .description {
+  font-weight: bold;
+}
+
+.col-ecommerce-catalog-pixel ul li .description-mark {
+  color: #aaaaaa;
+}
+
+.col-ecommerce-catalog-pixel ul li .price-promo {
+  color: #ce4442;
+  display: inline;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.col-ecommerce-catalog-pixel ul li .price-promo span {
+  font-size: 0.8em;
+}
+
+.col-ecommerce-catalog-pixel ul li .not-price {
+  display: inline-block;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.col-ecommerce-catalog-pixel ul li .promo-texte {
+  font-size: 0.7em;
+  color: #aaaaaa;
+}
+
+.col-ecommerce-catalog-pixel ul li .promo-texte span {
+  color: #ce4442;
+  font-weight: bold;
+}
+
+.col-ecommerce-catalog-pixel ul li a {
+  display: inline-block;
+  width: 100%;
+  padding: 0.7em 1.5em;
+  background-color: #eeb03e;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=11-ecommerce-catalog.css.map */

@@ -1,1 +1,65 @@
-/* No CSS *//*# sourceMappingURL=10-custom-numeric-counters.css.map */
+.col-custom-numeric-pixel {
+  max-width: 600px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+
+.col-custom-numeric-pixel ol {
+  width: 557px;
+  margin: auto;
+  padding: 10px 63px 10px 0px;
+}
+
+.col-custom-numeric-pixel ol li:first-child {
+  list-style-type: none;
+  background: url("../img/numeric-counter-01.png") no-repeat -8px;
+}
+
+.col-custom-numeric-pixel ol li:nth-child(2) {
+  list-style-type: none;
+  background: url(../img/numeric-counter-02.png) no-repeat -5px;
+}
+
+.col-custom-numeric-pixel ol li h3 {
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #4c5f80;
+  margin: 0;
+}
+
+.col-custom-numeric-pixel ol li p,
+.col-custom-numeric-pixel ol li h3 {
+  padding-left: 50px;
+}
+
+.col-custom-numeric-pixel ol li p a {
+  color: #535e7a;
+}
+
+.col-custom-numeric-pixel .diggs {
+  width: 50px;
+  height: 55px;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff29d), to(#fdf4cd));
+  background: linear-gradient(#fff29d, #fdf4cd);
+  border-radius: 10px 3px;
+  position: absolute;
+  top: -30px;
+  left: 90%;
+  padding-top: 10px;
+}
+
+.col-custom-numeric-pixel .diggs-it {
+  text-align: center;
+  width: 50px;
+  position: absolute;
+  top: 30px;
+  left: 90%;
+  padding: 4px 3px;
+  border: 1px solid #e0e4e5;
+  color: #54657f;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+/*# sourceMappingURL=10-custom-numeric-counters.css.map */

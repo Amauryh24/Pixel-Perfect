@@ -1,1 +1,42 @@
-/* No CSS *//*# sourceMappingURL=09-zone-story.css.map */
+.col-zone-story-pixel {
+  max-width: 1096px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.col-zone-story-pixel h2 {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #484848;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.col-zone-story-pixel p {
+  font-size: 19px;
+  color: #616161;
+}
+
+.col-zone-story-pixel .content-texte {
+  float: left;
+  padding: 92px 22px 0;
+  width: 40%;
+}
+
+.col-zone-story-pixel .content-img {
+  float: right;
+  width: 54.1%;
+}
+
+.col-zone-story-pixel .content-img img {
+  width: 100%;
+}
+
+.col-zone-story-pixel a {
+  background-color: #348087;
+  font-size: 0.95em;
+  padding: 0.6em 1em;
+  border-radius: 5px;
+  color: white;
+}
+/*# sourceMappingURL=09-zone-story.css.map */

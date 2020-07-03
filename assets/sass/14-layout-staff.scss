@@ -1,0 +1,96 @@
+.col-layout-staff-goal {
+  img {
+    width: 100%;
+  }
+}
+.col-layout-staff-pixel {
+  .nav {
+    ul {
+      display: flex;
+
+      justify-content: flex-end;
+      text-align: center;
+      margin: 0;
+      width: 100%;
+      padding-right: 35px;
+      li {
+        a {
+          display: inline-block;
+          width: 83px;
+          height: 83px;
+          line-height: 83px;
+          text-transform: uppercase;
+          font-size: 0.7em;
+          font-weight: bold;
+          color: black;
+          &:hover {
+            background-color: #7fbb49;
+          }
+        }
+      }
+      .link-is-active {
+        border-bottom: 7px solid #7fbb49;
+      }
+    }
+  }
+  .second-header {
+    text-align: center;
+    background-color: #7fbb49;
+    color: white;
+    padding: 55px;
+    h2 {
+      text-transform: uppercase;
+      font-size: 2.2em;
+      font-weight: bold;
+      padding-top: 5px;
+    }
+    p {
+      font-size: 0.8em;
+      width: 71%;
+      margin: 0 auto;
+      letter-spacing: 0.02em;
+      padding: 20px 0;
+      line-height: 1.8em;
+    }
+  }
+  .team-dots {
+    h3 {
+      margin: 0;
+      padding: 50px 0 0px;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      text-align: center;
+      font-weight: bold;
+    }
+    ul {
+      display: flex;
+      flex-flow: row wrap;
+      text-align: center;
+      li {
+        width: 25%;
+        padding: 40px 25px 65px;
+        &:hover {
+          background-color: rgba(204, 204, 204, 0.267);
+        }
+        img {
+          width: 100%;
+        }
+        .avatar-name {
+          font-size: 0.8em;
+          font-weight: bold;
+          padding-top: 10px;
+        }
+        .avatar-status {
+          font-size: 0.7em;
+          font-weight: bold;
+          color: #c1c1c1;
+        }
+        .avatar-desc {
+          font-size: 0.7em;
+          line-height: 1.5em;
+          letter-spacing: 0.02em;
+        }
+      }
+    }
+  }
+}
