@@ -2,10 +2,10 @@ header#nav {
   position: relative;
   ul {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-flow: row wrap;
     padding-top: 20px;
-    width: 500px;
+    width: 80%;
     margin: 0 auto;
     li {
       padding: 5px 5px;
@@ -22,7 +22,7 @@ header#nav {
         height: 100%;
         text-align: center;
         line-height: 100px;
-
+        text-decoration: none;
         &:hover {
           text-decoration: none;
           background-color: #505458 !important;

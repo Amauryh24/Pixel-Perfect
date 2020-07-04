@@ -50,3 +50,17 @@
     }
   }
 }
+.row {
+  margin: 0;
+}
+@media screen and (max-width: 720px) {
+  .col-pagination-goal {
+    padding: 0;
+    margin: 0;
+    img {
+      object-fit: contain;
+      width: 100%;
+      padding: 0;
+    }
+  }
+}

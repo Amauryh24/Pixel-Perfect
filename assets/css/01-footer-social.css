@@ -1,10 +1,16 @@
 .container-footer {
   color: #b0aca4;
   font-size: 1vw;
+  line-height: 1vw;
 }
 
 .container-footer .title-hidden {
   display: none;
+}
+
+.container-footer .col-footer-goal {
+  padding: 0;
+  margin: 0;
 }
 
 .container-footer .col-footer-goal img {
@@ -16,9 +22,13 @@
   background-color: #f8f3e9;
 }
 
+.container-footer .col-footer-pixel .pad-icon {
+  margin: 0;
+}
+
 .container-footer .col-footer-pixel .pad-icon a {
   color: #7b7974;
-  padding: 0.85em;
+  padding: 0.8vw;
 }
 
 .container-footer .col-footer-pixel .pad-icon a:hover {
@@ -26,6 +36,7 @@
 }
 
 .container-footer .col-footer-pixel .pad-text {
+  margin: 0;
   padding-right: 1.5vw;
 }
 
@@ -39,7 +50,7 @@
 }
 
 .container-footer p {
-  margin-left: 1.6vw;
+  margin: 0 0 0 1.6vw;
 }
 
 .container-footer .flex-block {
