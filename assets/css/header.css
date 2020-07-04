@@ -22,6 +22,8 @@ header#nav ul li {
   padding: 5px 5px;
   width: 20%;
   height: 100px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 header#nav ul li a {
@@ -38,7 +40,7 @@ header#nav ul li a {
 
 header#nav ul li a:hover {
   text-decoration: none;
-  background-color: #3864a1;
+  background-color: #505458 !important;
 }
 
 header#nav ul li:last-child {
@@ -49,13 +51,27 @@ header#nav ul li:last-child {
   top: 20px;
   right: 20px;
   font-weight: bold;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 500px) {
+  header#nav ul {
+    width: 250px;
+  }
   header#nav ul li {
+    width: 50px;
+    height: 50px;
     padding: 2px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+  }
+  header#nav ul li a {
+    line-height: 50px;
+  }
+  header#nav ul li:last-child {
+    width: 50px;
+    height: 50px;
   }
 }
 /*# sourceMappingURL=header.css.map */

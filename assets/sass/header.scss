@@ -11,6 +11,7 @@ header#nav {
       padding: 5px 5px;
       width: 20%;
       height: 100px;
+      transition: 0.3s;
       a {
         font-size: 2em;
         color: rgb(255, 255, 255);
@@ -24,7 +25,7 @@ header#nav {
 
         &:hover {
           text-decoration: none;
-          background-color: #3864a1;
+          background-color: #505458 !important;
         }
       }
       &:last-child {
@@ -35,17 +36,29 @@ header#nav {
         top: 20px;
         right: 20px;
         font-weight: bold;
+        transform: rotate(180deg);
       }
     }
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 500px) {
   header#nav {
     ul {
+      width: 250px;
       li {
+        width: 50px;
+        height: 50px;
         padding: 2px;
         transition: 0.3s;
+        a {
+          line-height: 50px;
+        }
+
+        &:last-child {
+          width: 50px;
+          height: 50px;
+        }
       }
     }
   }

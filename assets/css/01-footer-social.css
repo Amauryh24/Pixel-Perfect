@@ -1,12 +1,18 @@
 .container-footer {
-  font-size: 0.8em;
   color: #b0aca4;
+  font-size: 1vw;
+}
+
+.container-footer .title-hidden {
+  display: none;
+}
+
+.container-footer .col-footer-goal img {
+  width: 100%;
 }
 
 .container-footer .col-footer-pixel {
-  max-width: 1221px;
-  height: 57px;
-  margin: 0 auto;
+  padding: 1.5%;
   background-color: #f8f3e9;
 }
 
@@ -19,10 +25,13 @@
   cursor: pointer;
 }
 
+.container-footer .col-footer-pixel .pad-text {
+  padding-right: 1.5vw;
+}
+
 .container-footer .col-footer-pixel .pad-text a {
   color: #b0aca4;
-  font-size: 0.95em;
-  padding: 0.8em;
+  padding: 0.8vw;
 }
 
 .container-footer .col-footer-pixel .pad-text a:hover {
@@ -30,11 +39,7 @@
 }
 
 .container-footer p {
-  margin: 0 0 0 24px;
-}
-
-.container-footer ul {
-  margin: 0 0 0 18px;
+  margin-left: 1.6vw;
 }
 
 .container-footer .flex-block {
