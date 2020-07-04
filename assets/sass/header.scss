@@ -1,25 +1,35 @@
 header#nav {
   position: relative;
+  padding-bottom: 50px;
+
+  h1 {
+    font-size: 3vw;
+    color: $primary-color;
+    padding: 5vw;
+  }
   ul {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    padding-top: 20px;
-    width: 80%;
+    padding: 20px;
+    width: 920px;
+    height: 200px;
     margin: 0 auto;
     li {
-      padding: 5px 5px;
-      width: 20%;
+      padding: 0px 5px;
+      width: 8%;
       height: 100px;
       transition: 0.3s;
+
       a {
         font-size: 2em;
         color: rgb(255, 255, 255);
         font-weight: bold;
         background-color: #172c49;
         display: inline-block;
-        width: 100%;
-        height: 100%;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
         text-align: center;
         line-height: 100px;
         text-decoration: none;
@@ -27,13 +37,17 @@ header#nav {
           text-decoration: none;
           background-color: #505458 !important;
         }
+        &:last-child {
+          box-shadow: 2px 2px 4px rgba(37, 37, 37, 0.486);
+          border-radius: 100px;
+        }
       }
       &:last-child {
         position: fixed;
         z-index: 9999;
         width: 100px;
         height: 100px;
-        top: 20px;
+        top: -20px;
         right: 20px;
         font-weight: bold;
         transform: rotate(180deg);
@@ -45,19 +59,32 @@ header#nav {
 @media all and (max-width: 500px) {
   header#nav {
     ul {
-      width: 250px;
+      padding-top: 50px;
+      width: 400px;
+      height: 100px;
+      margin: 0 auto;
       li {
-        width: 50px;
-        height: 50px;
-        padding: 2px;
+        padding: 2px 2px;
+        width: 8%;
+        height: 40px;
         transition: 0.3s;
-        a {
-          line-height: 50px;
-        }
 
+        a {
+          font-size: 1em;
+          width: 40px;
+          height: 40px;
+          border-radius: 40px;
+          line-height: 40px;
+        }
         &:last-child {
-          width: 50px;
-          height: 50px;
+          position: fixed;
+          z-index: 9999;
+          width: 100px;
+          height: 100px;
+          top: -70px;
+          right: 20px;
+          font-weight: bold;
+          transform: rotate(180deg);
         }
       }
     }

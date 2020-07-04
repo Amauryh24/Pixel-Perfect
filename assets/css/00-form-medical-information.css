@@ -1,7 +1,3 @@
-.col-form-pixel {
-  max-width: 672px;
-}
-
 .col-form-pixel h2 {
   font-size: 1.4em;
   letter-spacing: 0.01em;
@@ -70,7 +66,7 @@
 }
 
 .col-form-pixel #emergency .box-height {
-  height: 22px;
+  height: 30px;
 }
 
 .col-form-pixel #emergency .box-height-1 {
@@ -90,7 +86,7 @@
 }
 
 .col-form-pixel #emergency .box-size-4 {
-  width: 68px;
+  width: 97px;
 }
 
 .col-form-pixel #emergency .box-size-5 {
