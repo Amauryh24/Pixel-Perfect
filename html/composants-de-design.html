@@ -41,7 +41,7 @@
             <h2>Emergency Contact and Medical Information</h2>
             <div class="form-content">
               <div class="flex-block flex-align-block">
-                <div class="flex-item">
+                <div class="">
                   <h4 class="form-title">Name</h4>
                   <input
                     type="text"
@@ -51,7 +51,7 @@
                   />
                   <label for="first">First </label>
                 </div>
-                <div class="flex-item">
+                <div class="">
                   <input
                     type="text"
                     name="last"
@@ -63,13 +63,13 @@
               </div>
 
               <div class="flex-block p-bottom-1">
-                <div class="flex-item">
+                <div class="box-size-6 m-right-2">
                   <h4 class="form-title">Gender</h4>
 
                   <select
                     name="gender"
                     id="gender-select"
-                    class="form-select box-size-6 box-height m-right-2 round bg-color-white"
+                    class="form-select content-100 box-height  round bg-color-white"
                   >
                     <option value="male">Male</option>
                     <option value="female">Female</option>
@@ -112,38 +112,40 @@
                 </div>
               </div>
               <h3>Emergency Contact</h3>
-
               <div class="flex-block">
-                <div class="flex-item">
-                  <h4 class="form-title">Name</h4>
-
-                  <input
-                    type="text"
-                    name="first-2"
-                    id="first-2"
-                    class="form-control-border box-size-4 box-height m-right-1"
-                  />
-                  <label for="first-2">First </label>
+                <div class="flex-block flex-align-block box-size-6 m-right-2">
+                  <div class="">
+                    <h4 class="form-title">Name</h4>
+                    <input
+                      type="text"
+                      name="first-2"
+                      id="first-2"
+                      class="form-control-border box-size-4 box-height m-right-1"
+                    />
+                    <label for="first-2">First </label>
+                  </div>
+                  <div class="">
+                    <input
+                      type="text"
+                      name="last-2"
+                      id="last-2"
+                      class="form-control-border box-size-5 box-height"
+                    />
+                    <label for="last-2">Last</label>
+                  </div>
                 </div>
-                <div class="flex-item flex-align-item">
-                  <input
-                    type="text"
-                    name="last-2"
-                    id="last-2"
-                    class="form-control-border box-size-5 box-height m-right-3"
-                  />
-                  <label for="last-2">Last</label>
-                </div>
-                <div class="flex-item">
+                <div class="box-size-6">
                   <h4 class="form-title">Relationship</h4>
 
                   <input
                     type="text"
                     name="relationship"
                     id="relationship"
-                    class="form-control-border box-size-6 box-height"
+                    class="form-control-border content-100 box-height"
                   />
                 </div>
+
+              
               </div>
 
               <div class="flex-item">
@@ -164,41 +166,41 @@
                 />
                 <label for="street-2">Address Line 2 </label>
 
-                <div class="flex-block">
-                  <div class="flex-item">
+                <div class="flex-block flex-justify-content-between">
+                  <div class="box-size-6 ">
                     <input
                       type="text"
                       name="city"
                       id="city"
-                      class="form-control-border box-size-6 box-height m-right-2"
+                      class="form-control-border box-height content-100"
                     />
                     <label for="city">City </label>
                   </div>
-                  <div class="flex-item">
+                  <div class="box-size-6 ">
                     <input
                       type="text"
                       name="state"
                       id="state"
-                      class="form-control-border box-size-6 box-height"
+                      class="form-control-border box-height content-100"
                     />
                     <label for="state">State / Province / Region </label>
                   </div>
-                </div>
-                <div class="flex-block">
-                  <div class="flex-item">
+            </div>
+                <div class="flex-block flex-justify-content-between">
+                  <div class="box-size-6">
                     <input
                       type="text"
                       name="postal"
                       id="postal"
-                      class="form-control-border box-size-6 box-height m-right-2"
+                      class="form-control-border content-100 box-height m-right-2"
                     />
                     <label for="postal">Postal / Zip Code</label>
                   </div>
-                  <div class="flex-item">
+                  <div class="box-size-6">
                     <select
                       name="country"
                       id="country"
-                      class="form-select mr-4 box-size-6 box-height round bg-color-white"
+                      class="form-select mr-4 content-100 box-height round bg-color-white"
                     >
                       <option value="Belgique">Belgique</option>
                       <option value="France">France</option>
@@ -290,36 +292,36 @@
                   class="form-control-border box-size-100 box-height"
                 />
 
-                <div class="flex-block">
-                  <div class="flex-item">
+                <div class="flex-block flex-justify-content-between">
+                  <div class="box-size-6">
                     <h4 class="form-title">Insurance Company</h4>
 
                     <input
                       type="text"
                       name="company"
                       id="company"
-                      class="form-control-border box-size-6 box-height m-right-2"
+                      class="form-control-border content-100 box-height m-right-2"
                     />
                   </div>
-                  <div class="flex-item">
+                  <div class="box-size-6">
                     <h4 class="form-title">Policy Number</h4>
 
                     <input
                       type="text"
                       name="police-number"
                       id="police-number"
-                      class="form-control-border box-size-6 box-height"
+                      class="form-control-border content-100 box-height"
                     />
                   </div>
                 </div>
                 <div class="flex-block">
-                  <div class="flex-item">
+                  <div class="box-size-6 m-right-2">
                     <h4 class="form-title">Physician's Name</h4>
                     <input
                       type="text"
                       name="physician-name"
                       id="physician-name"
-                      class="form-control-border box-size-6 box-height m-right-2"
+                      class="form-control-border content-100 box-height "
                     />
                   </div>
                   <div class="flex-item">
@@ -371,7 +373,8 @@
               <button class="round bg-color-white submit" type="submit">
                 Submit
               </button>
-            </div>
+
+             
           </form>
         </div>
       </div>
