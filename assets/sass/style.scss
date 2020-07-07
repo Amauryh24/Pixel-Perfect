@@ -2,7 +2,7 @@
 @import "header.scss";
 @import "00-form-medical-information.scss";
 @import "01-footer-social.scss";
-// @import "02-pagination.scss";
+@import "02-pagination.scss";
 // @import "03-zone-benefits-grid.scss";
 // @import "04-zone-cards.scss";
 // @import "05-zone-cta.scss";
@@ -15,76 +15,3 @@
 // @import "13-ui-chart-2.scss";
 // @import "14-layout-staff.scss";
 // @import "15-card-small.scss";
-.container-pagination {
-  h2 {
-    display: none;
-  }
-}
-.col-pagination-goal {
-  img {
-    width: 100%;
-  }
-}
-.col-pagination-pixel {
-  .pagination-content {
-    height: 11.8vw;
-    background-color: #e5e5e5;
-    .flex-block {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      height: 100%;
-      padding-right: 1.5vw;
-      li {
-        padding: 0 0.35%;
-        text-align: center;
-
-        a {
-          font-weight: bold;
-          padding: 1.2vw;
-          display: inline-block;
-          width: 7vw;
-          text-decoration: none;
-          background-color: #3c444e;
-          color: white;
-          border-radius: 0.7vw;
-          font-size: 2vw;
-
-          &:hover {
-            background-color: #3aa1e7;
-          }
-        }
-
-        .btn-large {
-          width: 8vw;
-        }
-        .btn-is-active {
-          background-color: #3aa1e7;
-        }
-        &:first-child a {
-          background-color: transparent;
-          color: black;
-        }
-        &:nth-child(5) a {
-          background-color: transparent;
-          color: black;
-        }
-      }
-    }
-  }
-}
-.row {
-  margin: 0;
-}
-@media screen and (max-width: 720px) {
-  .col-pagination-goal {
-    padding: 0;
-    margin: 0;
-    img {
-      object-fit: contain;
-      width: 100%;
-      padding: 0;
-    }
-  }
-}

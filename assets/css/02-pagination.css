@@ -1,7 +1,13 @@
+.container-pagination h2 {
+  display: none;
+}
+
+.col-pagination-goal img {
+  width: 100%;
+}
+
 .col-pagination-pixel .pagination-content {
-  max-width: 763px;
-  height: 90px;
-  margin: 0 auto;
+  height: 11.8vw;
   background-color: #e5e5e5;
 }
 
@@ -16,27 +22,24 @@
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
-  padding-right: 12px;
+  padding-right: 1.5vw;
 }
 
 .col-pagination-pixel .pagination-content .flex-block li {
-  padding: 3px;
+  padding: 0 0.35%;
   text-align: center;
-}
-
-.col-pagination-pixel .pagination-content .flex-block li:first-child {
-  padding-left: 2px;
 }
 
 .col-pagination-pixel .pagination-content .flex-block li a {
   font-weight: bold;
-  padding: 6px;
+  padding: 1.2vw;
   display: inline-block;
-  width: 71px;
+  width: 7vw;
   text-decoration: none;
   background-color: #3c444e;
   color: white;
-  border-radius: 5px;
+  border-radius: 0.7vw;
+  font-size: 2vw;
 }
 
 .col-pagination-pixel .pagination-content .flex-block li a:hover {
@@ -44,7 +47,7 @@
 }
 
 .col-pagination-pixel .pagination-content .flex-block li .btn-large {
-  width: 80px;
+  width: 8vw;
 }
 
 .col-pagination-pixel .pagination-content .flex-block li .btn-is-active {
