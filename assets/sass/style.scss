@@ -1,7 +1,7 @@
 @import "custom-framework.scss";
 @import "header.scss";
-// @import "00-form-medical-information.scss";
-// @import "01-footer-social.scss";
+@import "00-form-medical-information.scss";
+@import "01-footer-social.scss";
 // @import "02-pagination.scss";
 // @import "03-zone-benefits-grid.scss";
 // @import "04-zone-cards.scss";
@@ -15,123 +15,76 @@
 // @import "13-ui-chart-2.scss";
 // @import "14-layout-staff.scss";
 // @import "15-card-small.scss";
-.col-form-goal {
+.container-pagination {
+  h2 {
+    display: none;
+  }
+}
+.col-pagination-goal {
   img {
     width: 100%;
   }
 }
-.col-form-pixel {
-  h2 {
-    font-size: 1.8vw;
-    letter-spacing: 0.01em;
-    border-bottom: 0.5px solid #ccc;
-    padding-bottom: 16px;
-    margin: 0;
-  }
-
-  #emergency {
-    padding: 1.5vw;
-    border-left: 0.5px solid #ccc;
-    h3 {
-      font-size: 1vw;
-      margin: 0;
-      padding-top: 15px;
-      border-top: 0.5px solid #ccc;
-    }
-    h4 {
-      font-weight: bold;
-      font-size: 1vw;
-      margin-bottom: 5px;
-      letter-spacing: 0.02em;
-      padding-top: 11px;
-    }
-    label {
-      display: block;
-      font-size: 0.7em;
-      margin: 0;
-      padding: 2px 0 12px;
-    }
-
+.col-pagination-pixel {
+  .pagination-content {
+    height: 11.8vw;
+    background-color: #e5e5e5;
     .flex-block {
       display: flex;
+      justify-content: center;
+      align-items: center;
 
-      .flex-item {
-        display: flex;
-        flex-direction: column;
+      height: 100%;
+      padding-right: 1.5vw;
+      li {
+        padding: 0 0.35%;
+        text-align: center;
+
+        a {
+          font-weight: bold;
+          padding: 1.2vw;
+          display: inline-block;
+          width: 7vw;
+          text-decoration: none;
+          background-color: #3c444e;
+          color: white;
+          border-radius: 0.7vw;
+          font-size: 2vw;
+
+          &:hover {
+            background-color: #3aa1e7;
+          }
+        }
+
+        .btn-large {
+          width: 8vw;
+        }
+        .btn-is-active {
+          background-color: #3aa1e7;
+        }
+        &:first-child a {
+          background-color: transparent;
+          color: black;
+        }
+        &:nth-child(5) a {
+          background-color: transparent;
+          color: black;
+        }
       }
     }
-    .flex-align-block {
-      align-items: flex-end;
-    }
-    .flex-align-item {
-      align-self: flex-end;
-    }
-    .flex-justify-content-between {
-      justify-content: space-between;
-    }
-    .form-control-border {
-      border: 1px solid #cccccc;
-      border-top: 1.5px solid #7474748f;
-      margin: 0;
-      padding: 0;
-    }
-    .box-height {
-      height: 1.8vw;
-    }
-    .box-height-1 {
-      height: 135px;
-    }
-    .box-size-1 {
-      width: 26px;
-    }
-    .box-size-2 {
-      width: 25px;
-    }
-    .box-size-3 {
-      width: 35px;
-    }
-    .box-size-4 {
-      width: 5.6vw;
-    }
-    .box-size-5 {
-      width: 9vw;
-    }
-    .box-size-6 {
-      width: 48%;
-    }
-    .box-size-100 {
+  }
+}
+.row {
+  margin: 0;
+}
+@media screen and (max-width: 720px) {
+  .col-pagination-goal {
+    padding: 0;
+    margin: 0;
+    img {
+      object-fit: contain;
       width: 100%;
-    }
-
-    .m-right-1 {
-      margin-right: 5px;
-    }
-    .m-right-2 {
-      margin-right: 4%;
-    }
-    .m-right-3 {
-      margin-right: 124px;
-    }
-    .m-duo-x {
-      margin: 0 5px;
-    }
-    .p-top-0 {
-      padding-top: 0;
-    }
-    .p-bottom-1 {
-      padding-bottom: 6px;
-    }
-    .round {
-      border-radius: 5px;
-    }
-    .bg-color-white {
-      background-color: white;
-    }
-    .submit {
-      border: 0.5px solid #ccc;
-
-      font-size: 0.8em;
-      margin: 15px 0;
+      padding: 0;
     }
   }
 }
