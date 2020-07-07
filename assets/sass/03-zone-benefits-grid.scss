@@ -1,11 +1,12 @@
+.col-zone-benefits-grid-goal {
+  img {
+    width: 100%;
+  }
+}
 .col-zone-benefits-grid-pixel {
-  max-width: 1112px;
-
-  max-height: 366px;
-  margin: 0 auto;
-  min-width: 50%;
-  font-size: 15px;
-  letter-spacing: 0.03em;
+  font-size: 1.2vw;
+  line-height: 1.4vw;
+  letter-spacing: 0.07em;
   .flex-block {
     display: flex;
     justify-content: center;
@@ -16,18 +17,16 @@
     li {
       max-width: 25%;
       min-width: 20%;
-
-      padding: 22px;
-
+      padding: 1.4vw;
       .size-content {
-        width: 200px;
-        height: 200px;
+        width: 80%;
+        margin: auto;
+        height: 20vw;
         position: relative;
         img {
           position: absolute;
           top: 50%;
           right: 50%;
-
           transform: translate(50%, -50%);
         }
         #grunt {
@@ -45,9 +44,16 @@
       }
     }
     h3 {
-      font-size: 1.6em;
-      letter-spacing: 0.03em;
+      font-size: 2.3vw;
+      font-weight: 100;
+      letter-spacing: 0.05em;
       color: #7fbf94;
+      padding-bottom: 1.6vw;
+      padding-left: 1.7vw;
+    }
+    p {
+      padding-left: 1.7vw;
+      width: 85%;
     }
   }
 }

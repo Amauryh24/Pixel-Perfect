@@ -450,4 +450,84 @@ header#nav ul li:last-child {
     padding: 0;
   }
 }
+
+.col-zone-benefits-grid-goal img {
+  width: 100%;
+}
+
+.col-zone-benefits-grid-pixel {
+  font-size: 1.2vw;
+  line-height: 1.4vw;
+  letter-spacing: 0.07em;
+}
+
+.col-zone-benefits-grid-pixel .flex-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col-zone-benefits-grid-pixel .flex-block .flex-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.col-zone-benefits-grid-pixel .flex-block li {
+  max-width: 25%;
+  min-width: 20%;
+  padding: 1.4vw;
+}
+
+.col-zone-benefits-grid-pixel .flex-block li .size-content {
+  width: 80%;
+  margin: auto;
+  height: 20vw;
+  position: relative;
+}
+
+.col-zone-benefits-grid-pixel .flex-block li .size-content img {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.col-zone-benefits-grid-pixel .flex-block li .size-content #grunt {
+  width: 66%;
+}
+
+.col-zone-benefits-grid-pixel .flex-block li .size-content #gulp {
+  width: 35%;
+}
+
+.col-zone-benefits-grid-pixel .flex-block li .size-content #octocat {
+  width: 80%;
+}
+
+.col-zone-benefits-grid-pixel .flex-block li .size-content #npm {
+  width: 69%;
+}
+
+.col-zone-benefits-grid-pixel .flex-block h3 {
+  font-size: 2.3vw;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  color: #7fbf94;
+  padding-bottom: 1.6vw;
+  padding-left: 1.7vw;
+}
+
+.col-zone-benefits-grid-pixel .flex-block p {
+  padding-left: 1.7vw;
+  width: 85%;
+}
 /*# sourceMappingURL=style.css.map */
