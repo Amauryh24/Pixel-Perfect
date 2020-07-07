@@ -1,15 +1,18 @@
+.col-zone-cards-goal {
+  img {
+    width: 100%;
+  }
+}
 .col-zone-cards-pixel {
-  max-width: 1055px;
-  margin: auto;
-  padding: 0 0 0 25px;
-  font-size: 15px;
+  padding-left: 6.4vw;
+  font-size: 1vw;
   position: relative;
   h3 {
-    font-size: 1.7em;
+    font-size: 2.4vw;
     font-weight: bold;
     color: #484848;
     display: inline-block;
-    margin-bottom: 35px;
+    margin-bottom: 2.5vw;
   }
   .plus {
     display: inline-block;
@@ -17,38 +20,40 @@
     text-align: end;
     a {
       color: black;
+      text-decoration: none;
     }
   }
   .flex-block {
     display: flex;
     li {
-      width: 194px;
-      margin-right: 15px;
+      width: 16.6vw;
+      margin-right: 1.4vw;
       &:last-child {
         margin-right: 0px;
       }
       .img-content {
-        width: 193px;
-        height: 292px;
+        width: 100%;
         img {
           width: 100%;
           margin: 0;
         }
       }
       p {
-        font-size: 0.95em;
+        font-size: 1.2vw;
         margin-top: 2px;
 
         margin-bottom: 4px;
         letter-spacing: 0.03em;
+        color: #7f7f7f;
         span {
           font-weight: bold;
           color: #484848;
         }
       }
       .com-content {
-        font-size: 0.75em;
+        font-size: 1vw;
         letter-spacing: 0.02em;
+        font-weight: 600;
         .star {
           color: #45a097;
           font-size: 1em;
@@ -61,10 +66,20 @@
     }
   }
   .next {
-    color: black;
-    font-size: 2em;
+    color: #777;
+    font-size: 2vw;
     position: absolute;
-    top: 230px;
-    right: -30px;
+    top: 58%;
+    right: 2%;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .col-zone-cards-pixel {
+    .flex-block {
+      li {
+        width: 16.2vw;
+      }
+    }
   }
 }
