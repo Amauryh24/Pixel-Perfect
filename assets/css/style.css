@@ -22,6 +22,7 @@ body {
 }
 
 .section-cut {
+  clear: both;
   background-color: #dda576;
   margin: 10px 0;
   color: white;

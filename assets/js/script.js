@@ -5,25 +5,26 @@ function randomcolor() {
   let colorrvb = "rgb(" + r + "," + g + "," + b + ")";
   return colorrvb;
 }
-let navList = document.getElementById("nav-list");
+const navList = document.getElementById("nav-list");
+const color = [];
 
-for (let i = 1; i <= 22; i++) {
-  const newLi = document.createElement("li");
-  navList.appendChild(newLi);
-  let newA = document.createElement("a");
-  newA.setAttribute("href", "#" + i);
-  newLi.appendChild(newA);
-  newA.style.background = randomcolor();
+// get same color for header & cut section
 
-  let contentA = document.createTextNode(i);
-  newA.appendChild(contentA);
+function createElement(elparent, elchild, attr, valueid, index, text) {
+  const parentElement = document.createElement(elparent);
+  navList.appendChild(parentElement);
+  let childElement = document.createElement(elchild);
+  childElement.setAttribute(attr, "#" + valueid);
+  parentElement.appendChild(childElement);
+  childElement.style.background = color[index - 1];
+  let textElement = document.createTextNode(text);
+  childElement.appendChild(textElement);
 }
 
-const lastLi = document.createElement("li");
-navList.appendChild(lastLi);
-let lastA = document.createElement("a");
-lastA.setAttribute("href", "#nav");
-lastLi.appendChild(lastA);
-lastA.style.background = randomcolor();
-let lastContentA = document.createTextNode("↓");
-lastA.appendChild(lastContentA);
+for (let i = 1; i <= 22; i++) {
+  color.push(randomcolor());
+  createElement("li", "a", "href", i, i, i);
+  let sectionCut = document.getElementById(i);
+  sectionCut.style.background = color[i - 1];
+}
+createElement("li", "a", "href", "nav", 1, "↓");
