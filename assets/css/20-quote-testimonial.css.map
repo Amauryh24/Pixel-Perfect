@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/20-quote-testimonial.scss"
-    ],
-    "names": [],
-    "file": "20-quote-testimonial.css"
-}

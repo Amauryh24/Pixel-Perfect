@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/16-card-full-height.scss"
-    ],
-    "names": [],
-    "file": "16-card-full-height.css"
-}

@@ -1,12 +1,12 @@
 @import "custom-framework.scss";
 @import "header.scss";
-@import "00-form-medical-information.scss";
-@import "01-footer-social.scss";
-@import "02-pagination.scss";
-@import "03-zone-benefits-grid.scss";
-@import "04-zone-cards.scss";
-@import "05-zone-cta.scss";
-@import "06-zone-hero.scss";
+@import "01-form-medical-information.scss";
+@import "02-footer-social.scss";
+@import "03-pagination.scss";
+@import "04-zone-benefits-grid.scss";
+@import "05-zone-cards.scss";
+@import "06-zone-cta.scss";
+@import "07-zone-hero.scss";
 // @import "08-zone-related-links.scss";
 // @import "09-zone-story.scss";
 // @import "10-custom-numeric-counters.scss";
@@ -15,3 +15,79 @@
 // @import "13-ui-chart-2.scss";
 // @import "14-layout-staff.scss";
 // @import "15-card-small.scss";
+
+.col-zone-related-link-pixel {
+  max-width: 1076px;
+  height: 399px;
+  margin: auto;
+  padding: 25px;
+  position: relative;
+  h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 1px solid #b1b1b2;
+    padding-bottom: 20px;
+    z-index: 1;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 72px;
+      bottom: 0;
+      right: 25px;
+      left: 25px;
+      border-bottom: 1px solid #b1b1b2;
+      height: 1px;
+      z-index: -9999;
+      opacity: 0.5;
+    }
+  }
+
+  a {
+    float: right;
+    color: #999a9b;
+    font-size: 0.7em;
+  }
+  ul {
+    padding-top: 20px;
+
+    clear: both;
+    display: flex;
+    flex-flow: column wrap;
+    height: 399px;
+    margin: 0;
+    li {
+      width: 50%;
+      clear: both;
+      padding-bottom: 15px;
+      h3 {
+        font-size: 15px;
+        height: 20px;
+        font-weight: bold;
+        overflow: hidden;
+        margin-bottom: 5px;
+      }
+      h4 {
+        margin: 0;
+        padding: 3px 0;
+      }
+      h4,
+      p {
+        font-size: 0.8em;
+      }
+      p,
+      span {
+        color: #999a9b;
+      }
+
+      img {
+        width: 9%;
+        border-radius: 50%;
+        background-color: #524848;
+        float: left;
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/18-ecommerce-badge.scss"
-    ],
-    "names": [],
-    "file": "18-ecommerce-badge.css"
-}

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/22-ui-table.scss"
-    ],
-    "names": [],
-    "file": "22-ui-table.css"
-}
