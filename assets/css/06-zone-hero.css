@@ -1,34 +1,48 @@
+.col-zone-hero-goal img {
+  width: 100%;
+}
+
 .col-zone-hero-pixel {
-  background: url(../img/hero-image.jpg) no-repeat 340px -89px;
-  background-size: 76%;
-  max-width: 1425px;
-  height: 778px;
-  margin: 0 auto;
+  position: relative;
 }
 
-.col-zone-hero-pixel h2 {
-  padding-top: 100px;
-  font-size: 3em;
+.col-zone-hero-pixel .content-img img {
+  width: 75%;
+  height: 53vw;
+  float: right;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.col-zone-hero-pixel .content-text {
+  position: absolute;
+  top: 0;
+}
+
+.col-zone-hero-pixel .content-text h2 {
+  padding-top: 7.8vw;
+  font-size: 3.2vw;
   letter-spacing: 0.03em;
-  font-weight: bold;
-  padding-bottom: 10px;
+  width: 24vw !important;
 }
 
-.col-zone-hero-pixel .content-size {
-  width: 395px;
-  margin-left: 100px;
+.col-zone-hero-pixel .content-text .content-size {
+  width: 28vw;
+  margin-left: 9vw;
 }
 
-.col-zone-hero-pixel p {
-  font-size: 1.1em;
+.col-zone-hero-pixel .content-text p {
+  font-size: 1.3vw;
   line-height: 1.5em;
-  padding-bottom: 30px;
+  padding: 1.5vw 0;
 }
 
-.col-zone-hero-pixel a {
-  font-size: 1.2em;
+.col-zone-hero-pixel .content-text a {
+  font-size: 1.2vw;
+  line-height: 4.3vw;
   background-color: #e5b83f;
   color: black;
-  padding: 1.2em;
+  padding: 1.2em 2.5vw;
+  text-decoration: none;
 }
 /*# sourceMappingURL=06-zone-hero.css.map */

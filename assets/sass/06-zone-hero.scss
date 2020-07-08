@@ -1,29 +1,44 @@
+.col-zone-hero-goal {
+  img {
+    width: 100%;
+  }
+}
 .col-zone-hero-pixel {
-  background: url(../img/hero-image.jpg) no-repeat 340px -89px;
-  background-size: 76%;
-  max-width: 1425px;
-  height: 778px;
-  margin: 0 auto;
-  h2 {
-    padding-top: 100px;
-    font-size: 3em;
-    letter-spacing: 0.03em;
-    font-weight: bold;
-    padding-bottom: 10px;
+  // background: url(../img/hero-image.jpg) no-repeat 479px -113px;
+  position: relative;
+  .content-img {
+    img {
+      width: 75%;
+      height: 53vw;
+      float: right;
+      object-fit: cover;
+    }
   }
-  .content-size {
-    width: 395px;
-    margin-left: 100px;
-  }
-  p {
-    font-size: 1.1em;
-    line-height: 1.5em;
-    padding-bottom: 30px;
-  }
-  a {
-    font-size: 1.2em;
-    background-color: #e5b83f;
-    color: black;
-    padding: 1.2em;
+  .content-text {
+    position: absolute;
+    top: 0;
+    h2 {
+      padding-top: 7.8vw;
+      font-size: 3.2vw;
+      letter-spacing: 0.03em;
+      width: 24vw !important;
+    }
+    .content-size {
+      width: 28vw;
+      margin-left: 9vw;
+    }
+    p {
+      font-size: 1.3vw;
+      line-height: 1.5em;
+      padding: 1.5vw 0;
+    }
+    a {
+      font-size: 1.2vw;
+      line-height: 4.3vw;
+      background-color: #e5b83f;
+      color: black;
+      padding: 1.2em 2.5vw;
+      text-decoration: none;
+    }
   }
 }
