@@ -1,31 +1,35 @@
+.col-zone-cta-goal {
+  img {
+    width: 100%;
+  }
+}
 .col-zone-cta-pixel {
   $primary-color: #75ba8c;
-  max-width: 1423px;
-  margin: 0 auto;
   text-align: center;
   border-top: 0.5px solid #ccc;
   border-bottom: 0.5px solid #ccc;
-  padding: 60px 0;
-
+  padding: 4vw 0;
   h2 {
-    font-size: 4em;
+    font-size: 5.1vw;
+    line-height: 6vw;
     font-weight: bold;
   }
   p {
-    font-size: 1.5em;
+    font-size: 1.9vw;
     line-height: 1.5em;
     a {
       color: $primary-color;
+      text-decoration: none;
     }
   }
   .button-cta {
-    font-size: 1.2em;
-    line-height: 1.2em;
-    padding: 1.2em 2em;
-    border-radius: 3px;
+    font-size: 1.5vw;
+    padding: 1.5vw 2.8vw;
+    border-radius: 0.2vw;
     background-color: $primary-color;
     color: white;
-    margin-top: 25px;
     display: inline-block;
+    text-decoration: none;
+    margin: 2vw;
   }
 }
