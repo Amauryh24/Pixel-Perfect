@@ -1,5 +1,5 @@
 @import "custom-framework.scss";
-@import "header.scss";
+@import "00-header.scss";
 @import "01-form-medical-information.scss";
 @import "02-footer-social.scss";
 @import "03-pagination.scss";
@@ -17,28 +17,25 @@
 // @import "15-card-small.scss";
 
 .col-zone-related-link-pixel {
-  max-width: 1076px;
-  height: 399px;
-  margin: auto;
-  padding: 25px;
+  padding: 3vw;
   position: relative;
   h2 {
-    font-size: 1.4em;
+    font-size: 2vw;
+    line-height: 1vw;
     font-weight: bold;
     display: inline-block;
     border-bottom: 1px solid #b1b1b2;
-    padding-bottom: 20px;
+    padding-bottom: 2vw;
     z-index: 1;
     &:after {
       content: "";
-      display: block;
       position: absolute;
-      top: 72px;
-      bottom: 0;
-      right: 25px;
-      left: 25px;
+      top: 4vw;
+      right: 3vw;
+      left: 3vw;
       border-bottom: 1px solid #b1b1b2;
-      height: 1px;
+      padding-bottom: 2vw;
+      height: 0px;
       z-index: -9999;
       opacity: 0.5;
     }
@@ -47,34 +44,32 @@
   a {
     float: right;
     color: #999a9b;
-    font-size: 0.7em;
+    font-size: 1vw;
+    text-decoration: none;
   }
   ul {
-    padding-top: 20px;
-
+    padding-top: 2vw;
     clear: both;
     display: flex;
     flex-flow: column wrap;
-    height: 399px;
+    height: 29em;
     margin: 0;
     li {
       width: 50%;
       clear: both;
-      padding-bottom: 15px;
+      padding-bottom: 1.5vw;
       h3 {
-        font-size: 15px;
-        height: 20px;
+        font-size: 1.4vw;
         font-weight: bold;
         overflow: hidden;
-        margin-bottom: 5px;
+        padding: 0.5vw 0;
       }
       h4 {
-        margin: 0;
-        padding: 3px 0;
+        padding: 0.5vw 0;
       }
       h4,
       p {
-        font-size: 0.8em;
+        font-size: 1.2vw;
       }
       p,
       span {
@@ -88,6 +83,21 @@
         float: left;
         margin-right: 10px;
       }
+    }
+  }
+}
+@media all and (max-width: 720px) {
+  .col-zone-related-link-pixel {
+    ul {
+      height: 9em;
+    }
+  }
+}
+
+@media all and (max-width: 500px) {
+  .col-zone-related-link-pixel {
+    ul {
+      height: 7em;
     }
   }
 }
