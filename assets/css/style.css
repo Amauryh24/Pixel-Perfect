@@ -829,4 +829,73 @@ header#nav ul li:last-child {
   border-radius: 0.3vw;
   color: white;
 }
+
+.col-custom-numeric-pixel {
+  font-size: 1.2vw;
+  line-height: 1.1em;
+  position: relative;
+}
+
+.col-custom-numeric-pixel ol {
+  width: 42%;
+  margin: auto;
+  padding: 3vw 4vw 3vw 0px;
+}
+
+.col-custom-numeric-pixel ol li:first-child {
+  background: url(../img/numeric-counter-01.png) no-repeat -2% -5%;
+  background-size: 10%;
+}
+
+.col-custom-numeric-pixel ol li:nth-child(2) {
+  background: url(../img/numeric-counter-02.png) no-repeat -2% -5%;
+  background-size: 10%;
+}
+
+.col-custom-numeric-pixel ol li {
+  list-style-type: none;
+  padding-bottom: 2vw;
+}
+
+.col-custom-numeric-pixel ol li h3 {
+  font-size: 1.2vw;
+  color: #4c5f80;
+}
+
+.col-custom-numeric-pixel ol li p,
+.col-custom-numeric-pixel ol li h3 {
+  padding-left: 4vw;
+}
+
+.col-custom-numeric-pixel ol li p a {
+  color: #535e7a;
+}
+
+.col-custom-numeric-pixel .content-diggs {
+  position: absolute;
+  top: 0px;
+  left: 70%;
+  font-family: sans-serif;
+}
+
+.col-custom-numeric-pixel .content-diggs .diggs {
+  width: 2.5vw;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff29d), to(#fdf4cd));
+  background: linear-gradient(#fff29d, #fdf4cd);
+  border-radius: 10px 3px;
+  padding: 0.8vw;
+}
+
+.col-custom-numeric-pixel .content-diggs .diggs-it {
+  display: block;
+  text-align: center;
+  padding: 0.3vw;
+  border: 0.1vw solid #e0e4e5;
+  color: #54657f;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 0.3vw;
+}
 /*# sourceMappingURL=style.css.map */

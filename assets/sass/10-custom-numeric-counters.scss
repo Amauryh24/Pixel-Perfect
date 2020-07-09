@@ -1,31 +1,30 @@
 .col-custom-numeric-pixel {
-  max-width: 600px;
-  margin: auto;
-  font-size: 14px;
-  line-height: 1.2em;
+  font-size: 1.2vw;
+  line-height: 1.1em;
+  position: relative;
 
   ol {
-    width: 557px;
+    width: 42%;
     margin: auto;
-    padding: 10px 63px 10px 0px;
+    padding: 3vw 4vw 3vw 0px;
     li:first-child {
-      list-style-type: none;
-      background: url("../img/numeric-counter-01.png") no-repeat -8px;
+      background: url(../img/numeric-counter-01.png) no-repeat -2% -5%;
+      background-size: 10%;
     }
     li:nth-child(2) {
-      list-style-type: none;
-      background: url(../img/numeric-counter-02.png) no-repeat -5px;
+      background: url(../img/numeric-counter-02.png) no-repeat -2% -5%;
+      background-size: 10%;
     }
     li {
+      list-style-type: none;
+      padding-bottom: 2vw;
       h3 {
-        font-size: 14px;
-        line-height: 1.2em;
+        font-size: 1.2vw;
         color: #4c5f80;
-        margin: 0;
       }
       p,
       h3 {
-        padding-left: 50px;
+        padding-left: 4vw;
       }
       p {
         a {
@@ -34,27 +33,30 @@
       }
     }
   }
-  .diggs {
-    width: 50px;
-    height: 55px;
-    text-align: center;
-    background: linear-gradient(#fff29d, #fdf4cd);
-    border-radius: 10px 3px;
+  .content-diggs {
     position: absolute;
-    top: -30px;
-    left: 90%;
-    padding-top: 10px;
-  }
-  .diggs-it {
-    text-align: center;
-    width: 50px;
-    position: absolute;
-    top: 30px;
-    left: 90%;
-    padding: 4px 3px;
-    border: 1px solid #e0e4e5;
-    color: #54657f;
-    font-size: 0.8em;
-    font-weight: bold;
+    top: 0px;
+    left: 70%;
+    font-family: sans-serif;
+
+    .diggs {
+      width: 2.5vw;
+      text-align: center;
+      background: linear-gradient(#fff29d, #fdf4cd);
+      border-radius: 10px 3px;
+
+      padding: 0.8vw;
+    }
+    .diggs-it {
+      display: block;
+      text-align: center;
+      padding: 0.3vw;
+      border: 0.1vw solid #e0e4e5;
+      color: #54657f;
+      font-size: 0.8em;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 0.3vw;
+    }
   }
 }
