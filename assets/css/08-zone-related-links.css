@@ -1,0 +1,96 @@
+.col-zone-related-link-pixel {
+  padding: 3vw;
+  position: relative;
+}
+
+.col-zone-related-link-pixel h2 {
+  font-size: 2vw;
+  line-height: 1vw;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 1px solid #b1b1b2;
+  padding-bottom: 2vw;
+  z-index: 1;
+}
+
+.col-zone-related-link-pixel h2:after {
+  content: "";
+  position: absolute;
+  top: 4vw;
+  right: 3vw;
+  left: 3vw;
+  border-bottom: 1px solid #b1b1b2;
+  padding-bottom: 2vw;
+  height: 0px;
+  z-index: -9999;
+  opacity: 0.5;
+}
+
+.col-zone-related-link-pixel a {
+  float: right;
+  color: #999a9b;
+  font-size: 1vw;
+  text-decoration: none;
+}
+
+.col-zone-related-link-pixel ul {
+  padding-top: 2vw;
+  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  height: 29em;
+  margin: 0;
+}
+
+.col-zone-related-link-pixel ul li {
+  width: 50%;
+  clear: both;
+  padding-bottom: 1.5vw;
+}
+
+.col-zone-related-link-pixel ul li h3 {
+  font-size: 1.4vw;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 0.5vw 0;
+}
+
+.col-zone-related-link-pixel ul li h4 {
+  padding: 0.5vw 0;
+}
+
+.col-zone-related-link-pixel ul li h4,
+.col-zone-related-link-pixel ul li p {
+  font-size: 1.2vw;
+}
+
+.col-zone-related-link-pixel ul li p,
+.col-zone-related-link-pixel ul li span {
+  color: #999a9b;
+}
+
+.col-zone-related-link-pixel ul li img {
+  width: 9%;
+  border-radius: 50%;
+  background-color: #524848;
+  float: left;
+  margin-right: 10px;
+}
+
+@media all and (max-width: 720px) {
+  .col-zone-related-link-pixel ul {
+    height: 9em;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .col-zone-related-link-pixel ul {
+    height: 7em;
+  }
+}
+/*# sourceMappingURL=08-zone-related-links.css.map */

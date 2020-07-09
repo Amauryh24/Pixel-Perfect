@@ -22,6 +22,7 @@ body {
 }
 
 .section-cut {
+  font-family: sans-serif;
   clear: both;
   background-color: #dda576;
   margin: 10px 0;
@@ -783,5 +784,49 @@ header#nav ul li:last-child {
   .col-zone-related-link-pixel ul {
     height: 7em;
   }
+}
+
+.col-zone-story-pixel {
+  font-family: sans-serif;
+  padding: 2.2vw 2vw;
+}
+
+.col-zone-story-pixel h2 {
+  font-size: 2.4vw;
+  font-weight: bold;
+  color: #484848;
+}
+
+.col-zone-story-pixel p {
+  font-size: 1.5vw;
+  color: #616161;
+  padding: 1.4vw 0;
+  width: 30vw;
+  line-height: 1.8vw;
+}
+
+.col-zone-story-pixel .content-texte {
+  float: left;
+  padding: 8vw 2vw 0;
+  width: 40%;
+}
+
+.col-zone-story-pixel .content-img {
+  float: right;
+  width: 54.1%;
+}
+
+.col-zone-story-pixel .content-img img {
+  width: 100%;
+}
+
+.col-zone-story-pixel a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #348087;
+  font-size: 1.4vw;
+  padding: 1vw 1.4vw;
+  border-radius: 0.3vw;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

@@ -7,97 +7,11 @@
 @import "05-zone-cards.scss";
 @import "06-zone-cta.scss";
 @import "07-zone-hero.scss";
-// @import "08-zone-related-links.scss";
-// @import "09-zone-story.scss";
+@import "08-zone-related-links.scss";
+@import "09-zone-story.scss";
 // @import "10-custom-numeric-counters.scss";
 // @import "11-ecommerce-catalog.scss";
 // @import "12-ui-chart.scss";
 // @import "13-ui-chart-2.scss";
 // @import "14-layout-staff.scss";
 // @import "15-card-small.scss";
-
-.col-zone-related-link-pixel {
-  padding: 3vw;
-  position: relative;
-  h2 {
-    font-size: 2vw;
-    line-height: 1vw;
-    font-weight: bold;
-    display: inline-block;
-    border-bottom: 1px solid #b1b1b2;
-    padding-bottom: 2vw;
-    z-index: 1;
-    &:after {
-      content: "";
-      position: absolute;
-      top: 4vw;
-      right: 3vw;
-      left: 3vw;
-      border-bottom: 1px solid #b1b1b2;
-      padding-bottom: 2vw;
-      height: 0px;
-      z-index: -9999;
-      opacity: 0.5;
-    }
-  }
-
-  a {
-    float: right;
-    color: #999a9b;
-    font-size: 1vw;
-    text-decoration: none;
-  }
-  ul {
-    padding-top: 2vw;
-    clear: both;
-    display: flex;
-    flex-flow: column wrap;
-    height: 29em;
-    margin: 0;
-    li {
-      width: 50%;
-      clear: both;
-      padding-bottom: 1.5vw;
-      h3 {
-        font-size: 1.4vw;
-        font-weight: bold;
-        overflow: hidden;
-        padding: 0.5vw 0;
-      }
-      h4 {
-        padding: 0.5vw 0;
-      }
-      h4,
-      p {
-        font-size: 1.2vw;
-      }
-      p,
-      span {
-        color: #999a9b;
-      }
-
-      img {
-        width: 9%;
-        border-radius: 50%;
-        background-color: #524848;
-        float: left;
-        margin-right: 10px;
-      }
-    }
-  }
-}
-@media all and (max-width: 720px) {
-  .col-zone-related-link-pixel {
-    ul {
-      height: 9em;
-    }
-  }
-}
-
-@media all and (max-width: 500px) {
-  .col-zone-related-link-pixel {
-    ul {
-      height: 7em;
-    }
-  }
-}
