@@ -23,11 +23,9 @@
     <header id="nav">
       <h1 class="text-center">22 Composants de design</h1>
       <ul id="nav-list"></ul>
-      
-
     </header>
     <h2 id="1" class="section-cut text-center">1 Form Medical Information</h2>
-    <section  class="container-fluid container-form">
+    <section class="container-fluid container-form">
       <div class="row row-form">
         <div class="content-50 col-form-goal text-center px-1">
           <img
@@ -39,212 +37,288 @@
         <div class="content-50 col-form-pixel">
           <form id="emergency" action="#">
             <h2>Emergency Contact and Medical Information</h2>
-            <div class="form-content">
-              <div class="flex-block flex-align-block">
+
+            <div class="flex-block flex-align-block">
+              <div>
+                <h4 class="form-title">Name</h4>
+                <input
+                  type="text"
+                  name="first"
+                  id="first"
+                  class="form-control-border box-size-4 box-height m-right-1"
+                />
+                <label for="first">First </label>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="last"
+                  id="last"
+                  class="form-control-border box-size-5 box-height"
+                />
+                <label for="last">Last</label>
+              </div>
+            </div>
+
+            <div class="flex-block p-bottom-1">
+              <div class="box-size-6 m-right-2">
+                <h4 class="form-title">Gender</h4>
+
+                <select
+                  name="gender"
+                  id="gender-select"
+                  class="form-select content-100 box-height round bg-color-white"
+                >
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+              <div class="flex-item">
+                <h4 class="form-title">Date of Birth</h4>
+                <div class="flex-block">
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="mm"
+                      id="mm"
+                      class="form-control-border box-size-1 box-height"
+                    />
+                    <label for="mm" class="text-mm">MM</label>
+                  </div>
+                  <span class="m-duo-x">/</span>
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="dd"
+                      id="dd"
+                      class="form-control-border box-size-1 box-height"
+                    />
+                    <label for="dd" class="text-dd">DD</label>
+                  </div>
+
+                  <span class="m-duo-x">/</span>
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="yy"
+                      id="yy"
+                      class="form-control-border box-size-3 box-height"
+                    />
+                    <label for="yy" class="text-yyyy">YYYY</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3>Emergency Contact</h3>
+            <div class="flex-block">
+              <div class="flex-block flex-align-block box-size-6 m-right-2">
                 <div class="">
                   <h4 class="form-title">Name</h4>
                   <input
                     type="text"
-                    name="first"
-                    id="first"
+                    name="first-2"
+                    id="first-2"
                     class="form-control-border box-size-4 box-height m-right-1"
                   />
-                  <label for="first">First </label>
+                  <label for="first-2">First </label>
                 </div>
                 <div class="">
                   <input
                     type="text"
-                    name="last"
-                    id="last"
+                    name="last-2"
+                    id="last-2"
                     class="form-control-border box-size-5 box-height"
                   />
-                  <label for="last">Last</label>
+                  <label for="last-2">Last</label>
                 </div>
               </div>
+              <div class="box-size-6">
+                <h4 class="form-title">Relationship</h4>
 
-              <div class="flex-block p-bottom-1">
-                <div class="box-size-6 m-right-2">
-                  <h4 class="form-title">Gender</h4>
-
-                  <select
-                    name="gender"
-                    id="gender-select"
-                    class="form-select content-100 box-height  round bg-color-white"
-                  >
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                  </select>
-                </div>
-                <div class="flex-item">
-                  <h4 class="form-title">Date of Birth</h4>
-                  <div class="flex-block">
-                    <div class="flex-item">
-                      <input
-                        type="text"
-                        name="mm"
-                        id="mm"
-                        class="form-control-border box-size-1 box-height"
-                      />
-                      <label for="mm" class="text-mm">MM</label>
-                    </div>
-                    <span class="m-duo-x">/</span>
-                    <div class="flex-item">
-                      <input
-                        type="text"
-                        name="dd"
-                        id="dd"
-                        class="form-control-border box-size-1 box-height"
-                      />
-                      <label for="dd" class="text-dd">DD</label>
-                    </div>
-
-                    <span class="m-duo-x">/</span>
-                    <div class="flex-item">
-                      <input
-                        type="text"
-                        name="yy"
-                        id="yy"
-                        class="form-control-border box-size-3 box-height"
-                      />
-                      <label for="yy" class="text-yyyy">YYYY</label>
-                    </div>
-                  </div>
-                </div>
+                <input
+                  type="text"
+                  name="relationship"
+                  id="relationship"
+                  class="form-control-border content-100 box-height"
+                />
               </div>
-              <h3>Emergency Contact</h3>
-              <div class="flex-block">
-                <div class="flex-block flex-align-block box-size-6 m-right-2">
-                  <div class="">
-                    <h4 class="form-title">Name</h4>
-                    <input
-                      type="text"
-                      name="first-2"
-                      id="first-2"
-                      class="form-control-border box-size-4 box-height m-right-1"
-                    />
-                    <label for="first-2">First </label>
-                  </div>
-                  <div class="">
-                    <input
-                      type="text"
-                      name="last-2"
-                      id="last-2"
-                      class="form-control-border box-size-5 box-height"
-                    />
-                    <label for="last-2">Last</label>
-                  </div>
+            </div>
+
+            <div class="flex-item">
+              <h4 class="form-title p-top-0">Address</h4>
+              <input
+                type="text"
+                name="street"
+                id="street"
+                class="form-control-border box-size-100 box-height"
+              />
+              <label for="street">Street Address </label>
+
+              <input
+                type="text"
+                name="street-2"
+                id="street-2"
+                class="form-control-border box-size-100 box-height"
+              />
+              <label for="street-2">Address Line 2 </label>
+
+              <div class="flex-block flex-justify-content-between">
+                <div class="box-size-6">
+                  <input
+                    type="text"
+                    name="city"
+                    id="city"
+                    class="form-control-border box-height content-100"
+                  />
+                  <label for="city">City </label>
                 </div>
                 <div class="box-size-6">
-                  <h4 class="form-title">Relationship</h4>
+                  <input
+                    type="text"
+                    name="state"
+                    id="state"
+                    class="form-control-border box-height content-100"
+                  />
+                  <label for="state">State / Province / Region </label>
+                </div>
+              </div>
+              <div class="flex-block flex-justify-content-between">
+                <div class="box-size-6">
+                  <input
+                    type="text"
+                    name="postal"
+                    id="postal"
+                    class="form-control-border content-100 box-height m-right-2"
+                  />
+                  <label for="postal">Postal / Zip Code</label>
+                </div>
+                <div class="box-size-6">
+                  <select
+                    name="country"
+                    id="country"
+                    class="form-select mr-4 content-100 box-height round bg-color-white"
+                  >
+                    <option value="Belgique">Belgique</option>
+                    <option value="France">France</option>
+                  </select>
+                  <label for="country">Country</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-block p-bottom-1">
+              <div class="flex-item box-size-6 m-right-2">
+                <h4 class="form-title">Home Phone</h4>
+                <div class="flex-block">
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="num-1"
+                      id="num-1"
+                      class="form-control-border box-size-2 box-height"
+                    />
+                    <label for="num-1">###</label>
+                  </div>
+                  <span class="m-duo-x">-</span>
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="num-2"
+                      id="num-2"
+                      class="form-control-border box-size-2 box-height"
+                    />
+                    <label for="num-2">###</label>
+                  </div>
+
+                  <span class="m-duo-x">-</span>
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="num3"
+                      id="num3"
+                      class="form-control-border box-size-3 box-height"
+                    />
+                    <label for="num3">####</label>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-item">
+                <h4 class="form-title">Work Phone</h4>
+                <div class="flex-block">
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="mnum-4"
+                      id="num-4"
+                      class="form-control-border box-size-2 box-height"
+                    />
+                    <label for="num-4">###</label>
+                  </div>
+                  <span class="m-duo-x">-</span>
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="num-5"
+                      id="num-5"
+                      class="form-control-border box-size-2 box-height"
+                    />
+                    <label for="num-5">###</label>
+                  </div>
+
+                  <span class="m-duo-x">-</span>
+                  <div class="flex-item">
+                    <input
+                      type="text"
+                      name="num-6"
+                      id="num-6"
+                      class="form-control-border box-size-3 box-height"
+                    />
+                    <label for="num-6">####</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3>Medical Information</h3>
+            <div class="flex-item">
+              <h4 class="form-title">Hospital / Clinic Preference</h4>
+              <input
+                type="text"
+                name="hospital"
+                id="hospital"
+                class="form-control-border box-size-100 box-height"
+              />
+
+              <div class="flex-block flex-justify-content-between">
+                <div class="box-size-6">
+                  <h4 class="form-title">Insurance Company</h4>
 
                   <input
                     type="text"
-                    name="relationship"
-                    id="relationship"
+                    name="company"
+                    id="company"
+                    class="form-control-border content-100 box-height m-right-2"
+                  />
+                </div>
+                <div class="box-size-6">
+                  <h4 class="form-title">Policy Number</h4>
+
+                  <input
+                    type="text"
+                    name="police-number"
+                    id="police-number"
                     class="form-control-border content-100 box-height"
                   />
                 </div>
-
-              
               </div>
-
-              <div class="flex-item">
-                <h4 class="form-title p-top-0">Address</h4>
-                <input
-                  type="text"
-                  name="street"
-                  id="street"
-                  class="form-control-border box-size-100 box-height"
-                />
-                <label for="street">Street Address </label>
-
-                <input
-                  type="text"
-                  name="street-2"
-                  id="street-2"
-                  class="form-control-border box-size-100 box-height"
-                />
-                <label for="street-2">Address Line 2 </label>
-
-                <div class="flex-block flex-justify-content-between">
-                  <div class="box-size-6 ">
-                    <input
-                      type="text"
-                      name="city"
-                      id="city"
-                      class="form-control-border box-height content-100"
-                    />
-                    <label for="city">City </label>
-                  </div>
-                  <div class="box-size-6 ">
-                    <input
-                      type="text"
-                      name="state"
-                      id="state"
-                      class="form-control-border box-height content-100"
-                    />
-                    <label for="state">State / Province / Region </label>
-                  </div>
-            </div>
-                <div class="flex-block flex-justify-content-between">
-                  <div class="box-size-6">
-                    <input
-                      type="text"
-                      name="postal"
-                      id="postal"
-                      class="form-control-border content-100 box-height m-right-2"
-                    />
-                    <label for="postal">Postal / Zip Code</label>
-                  </div>
-                  <div class="box-size-6">
-                    <select
-                      name="country"
-                      id="country"
-                      class="form-select mr-4 content-100 box-height round bg-color-white"
-                    >
-                      <option value="Belgique">Belgique</option>
-                      <option value="France">France</option>
-                    </select>
-                    <label for="country">Country</label>
-                  </div>
-                </div>
-              </div>
-
-              <div class="flex-block p-bottom-1">
-                <div class="flex-item box-size-6 m-right-2">
-                  <h4 class="form-title">Home Phone</h4>
-                  <div class="flex-block">
-                    <div class="flex-item">
-                      <input
-                        type="text"
-                        name="num-1"
-                        id="num-1"
-                        class="form-control-border box-size-2 box-height"
-                      />
-                      <label for="num-1">###</label>
-                    </div>
-                    <span class="m-duo-x">-</span>
-                    <div class="flex-item">
-                      <input
-                        type="text"
-                        name="num-2"
-                        id="num-2"
-                        class="form-control-border box-size-2 box-height"
-                      />
-                      <label for="num-2">###</label>
-                    </div>
-
-                    <span class="m-duo-x">-</span>
-                    <div class="flex-item">
-                      <input
-                        type="text"
-                        name="num3"
-                        id="num3"
-                        class="form-control-border box-size-3 box-height"
-                      />
-                      <label for="num3">####</label>
-                    </div>
-                  </div>
+              <div class="flex-block">
+                <div class="box-size-6 m-right-2">
+                  <h4 class="form-title">Physician's Name</h4>
+                  <input
+                    type="text"
+                    name="physician-name"
+                    id="physician-name"
+                    class="form-control-border content-100 box-height"
+                  />
                 </div>
                 <div class="flex-item">
                   <h4 class="form-title">Work Phone</h4>
@@ -252,136 +326,56 @@
                     <div class="flex-item">
                       <input
                         type="text"
-                        name="mnum-4"
-                        id="num-4"
+                        name="num-7"
+                        id="num-7"
                         class="form-control-border box-size-2 box-height"
                       />
-                      <label for="num-4">###</label>
+                      <label for="num-7">###</label>
                     </div>
-                    <span class="m-duo-x">-</span>
+                    <span class="m-duo-x">/</span>
                     <div class="flex-item">
                       <input
                         type="text"
-                        name="num-5"
-                        id="num-5"
+                        name="num-8"
+                        id="num-8"
                         class="form-control-border box-size-2 box-height"
                       />
-                      <label for="num-5">###</label>
+                      <label for="num-8">###</label>
                     </div>
 
-                    <span class="m-duo-x">-</span>
+                    <span class="m-duo-x">/</span>
                     <div class="flex-item">
                       <input
                         type="text"
-                        name="num-6"
-                        id="num-6"
+                        name="num-9"
+                        id="num-9"
                         class="form-control-border box-size-3 box-height"
                       />
-                      <label for="num-6">####</label>
+                      <label for="num-9">####</label>
                     </div>
                   </div>
                 </div>
               </div>
-              <h3>Medical Information</h3>
-              <div class="flex-item">
-                <h4 class="form-title">Hospital / Clinic Preference</h4>
-                <input
-                  type="text"
-                  name="hospital"
-                  id="hospital"
-                  class="form-control-border box-size-100 box-height"
-                />
+            </div>
+            <div class="flex-item">
+              <h4>Allergies / Special Health Considerations</h4>
+              <textarea
+                class="form-control-border box-size-100 box-height-1"
+                name="allergies"
+                id="allergies"
+              ></textarea>
+            </div>
 
-                <div class="flex-block flex-justify-content-between">
-                  <div class="box-size-6">
-                    <h4 class="form-title">Insurance Company</h4>
-
-                    <input
-                      type="text"
-                      name="company"
-                      id="company"
-                      class="form-control-border content-100 box-height m-right-2"
-                    />
-                  </div>
-                  <div class="box-size-6">
-                    <h4 class="form-title">Policy Number</h4>
-
-                    <input
-                      type="text"
-                      name="police-number"
-                      id="police-number"
-                      class="form-control-border content-100 box-height"
-                    />
-                  </div>
-                </div>
-                <div class="flex-block">
-                  <div class="box-size-6 m-right-2">
-                    <h4 class="form-title">Physician's Name</h4>
-                    <input
-                      type="text"
-                      name="physician-name"
-                      id="physician-name"
-                      class="form-control-border content-100 box-height "
-                    />
-                  </div>
-                  <div class="flex-item">
-                    <h4 class="form-title">Work Phone</h4>
-                    <div class="flex-block">
-                      <div class="flex-item">
-                        <input
-                          type="text"
-                          name="num-7"
-                          id="num-7"
-                          class="form-control-border box-size-2 box-height"
-                        />
-                        <label for="num-7">###</label>
-                      </div>
-                      <span class="m-duo-x">/</span>
-                      <div class="flex-item">
-                        <input
-                          type="text"
-                          name="num-8"
-                          id="num-8"
-                          class="form-control-border box-size-2 box-height"
-                        />
-                        <label for="num-8">###</label>
-                      </div>
-
-                      <span class="m-duo-x">/</span>
-                      <div class="flex-item">
-                        <input
-                          type="text"
-                          name="num-9"
-                          id="num-9"
-                          class="form-control-border box-size-3 box-height"
-                        />
-                        <label for="num-9">####</label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="flex-item">
-                <h4>Allergies / Special Health Considerations</h4>
-                <textarea
-                  class="form-control-border box-size-100 box-height-1"
-                  name="allergies"
-                  id="allergies"
-                ></textarea>
-              </div>
-
-              <button class="round bg-color-white submit" type="submit">
-                Submit
-              </button>
-
-             
+            <button class="round bg-color-white submit" type="submit">
+              Submit
+            </button>
           </form>
         </div>
       </div>
     </section>
 
     <h2 id="2" class="section-cut text-center">2 Footer Social</h2>
-    <section  class="container-fluid container-footer p-0">
+    <section class="container-fluid container-footer p-0">
       <h2 class="title-hidden">hidden</h2>
       <div class="row">
         <div
@@ -429,7 +423,7 @@
     </section>
 
     <h2 id="3" class="section-cut text-center">3 Pagination</h2>
-    <section  class="container-fluid container-pagination p-0">
+    <section class="container-fluid container-pagination p-0">
       <h2 class="title-hidden">hidden</h2>
       <div class="row">
         <div
@@ -467,7 +461,7 @@
     </section>
 
     <h2 id="4" class="section-cut text-center">4 Zone Benefit Grid</h2>
-    <section  class="container-fluid container-zone-benefits-grid p-0">
+    <section class="container-fluid container-zone-benefits-grid p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-zone-benefits-grid-goal text-center py-md-2 py-2"
@@ -531,12 +525,16 @@
     </section>
 
     <h2 id="5" class="section-cut text-center">5 Zone cards</h2>
-    <section  class="container-fluid container-zone-cards p-0">
+    <section class="container-fluid container-zone-cards p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-zone-cards-goal text-center py-md-2 py-2"
         >
-          <img class="content-100"  src="../assets/img/goals/04.zone-cards.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/04.zone-cards.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-zone-cards-pixel">
           <h3>Expériences</h3>
@@ -625,12 +623,16 @@
     </section>
 
     <h2 id="6" class="section-cut text-center">6 Zone cta</h2>
-    <section  class="container-fluid container-zone-cta p-0">
+    <section class="container-fluid container-zone-cta p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-zone-cta-goal text-center py-md-2 py-2"
         >
-          <img class="content-100" src="../assets/img/goals/05.zone-CTA.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/05.zone-CTA.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-zone-cta-pixel">
           <h2>Deploy to your domain-free.</h2>
@@ -644,16 +646,20 @@
     </section>
 
     <h2 id="7" class="section-cut text-center">7 Zone Hero</h2>
-    <section  class="container-fluid container-zone-hero p-0">
+    <section class="container-fluid container-zone-hero p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-zone-hero-goal text-center py-md-2 py-2"
         >
-          <img class="content-100" src="../assets/img/goals/06.zone-hero.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/06.zone-hero.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-zone-hero-pixel">
           <div class="content-img">
-            <img src="../assets/img/hero-image.jpg" alt="">
+            <img src="../assets/img/hero-image.jpg" alt="" />
           </div>
           <div class="content-text">
             <h2 class="content-size">We're waiting for you!</h2>
@@ -664,18 +670,21 @@
             </p>
             <a class="content-size" href=""> Make a appointment</a>
           </div>
-          
         </div>
       </div>
     </section>
 
     <h2 id="8" class="section-cut text-center">8 Zone related link</h2>
-    <section  class="container-fluid container-zone-related-link p-0">
+    <section class="container-fluid container-zone-related-link p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-zone-related-link-goal text-center py-md-2 py-2"
         >
-          <img class="content-100" src="../assets/img/goals/08.zone-related-links.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/08.zone-related-links.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-zone-related-link-pixel">
           <h2>New from your network</h2>
@@ -737,12 +746,16 @@
     </section>
 
     <h2 id="9" class="section-cut text-center">9 Zone Story</h2>
-    <section  class="container-fluid container-zone-story p-0">
+    <section class="container-fluid container-zone-story p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-zone-story-goal text-center py-md-2 py-2"
         >
-          <img class="content-100" src="../assets/img/goals/09.zone-story-img+text.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/09.zone-story-img+text.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-zone-story-pixel">
           <div class="content-texte">
@@ -761,7 +774,7 @@
     </section>
 
     <h2 id="10" class="section-cut text-center">10 Custom Numeric</h2>
-    <section  class="container-fluid container-custom-numeric p-0">
+    <section class="container-fluid container-custom-numeric p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-custom-numeric-goal text-center py-md-2 py-2"
@@ -800,19 +813,22 @@
             <p class="diggs">155 diggs</p>
             <a class="diggs-it" href=""> digg it</a>
           </div>
-         
         </div>
       </div>
     </section>
 
     <h2 id="11" class="section-cut text-center">11 Ecommerce Catalog</h2>
-    <section  class="container-fluid container-ecommerce p-0">
+    <section class="container-fluid container-ecommerce p-0">
       <h2 class="title-hidden">hidden</h2>
       <div class="row">
         <div
           class="col-12 col-md-12 col-ecommerce-catalog-goal text-center py-md-2 py-2"
         >
-          <img class="content-100" src="../assets/img/goals/11.ecommerce-catalog.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/11.ecommerce-catalog.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-ecommerce-catalog-pixel">
           <ul>
@@ -882,22 +898,27 @@
     </section>
 
     <h2 id="12" class="section-cut text-center">12 UI Chart</h2>
-    <section  class="container-fluid container-ui-chart p-0">
+    <section class="container-fluid container-ui-chart p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-ui-chart-goal text-center py-md-2 py-2"
         >
-          <img class="content-50" src="../assets/img/goals/12.ui-chart.png" alt="" />
+          <img
+            class="content-50"
+            src="../assets/img/goals/12.ui-chart.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-ui-chart-pixel">
           <h3>
             How Well do you retain users
           </h3>
           <table>
-            <caption>
-              User retention by week
-            </caption>
-
+            <thead>
+              <tr>
+                <th colspan="7">User retention by week</th>
+              </tr>
+            </thead>
             <tbody>
               <tr>
                 <td class="date-control"></td>
@@ -964,31 +985,40 @@
                 <td></td>
               </tr>
             </tbody>
+            <tfoot>
+              <tr>
+                <td>
+                  <select name="date-week" id="date-week">
+                    <option value="male">Last 6 weeks</option>
+                    <option value="female">Last 5 weeks</option>
+                  </select>
+                </td>
+                <td colspan="6"><a href="">Cohort Analysis Report ></a></td>
+              </tr>
+            </tfoot>
           </table>
-          <div>
-            <select name="date-week" id="date-week">
-              <option value="male">Last 6 weeks</option>
-              <option value="female">Last 5 weeks</option>
-            </select>
-            <a href="">Cohort Analysis Report ></a>
-          </div>
+          <div></div>
         </div>
       </div>
     </section>
 
     <h2 id="13" class="section-cut text-center">13 UI Chart 2</h2>
-    <section  class="container-fluid container-ui-chart-2 p-0">
+    <section class="container-fluid container-ui-chart-2 p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-ui-chart-2-goal text-center py-md-2 py-2"
         >
-          <img class="content-50" src="../assets/img/goals/13.ui-chart-2.png" alt="" />
+          <img
+            class="content-50"
+            src="../assets/img/goals/13.ui-chart-2.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-ui-chart-2-pixel">
           <h3>Users right now</h3>
           <span class="badge-chart">90 </span>
           <p class="color-blue">Page views per minute</p>
-          <img src="../assets/img/ui-chart-2.png" " alt="">
+          <img src="../assets/img/ui-chart-2.png" alt="" />
 
           <ul>
             <li>
@@ -1024,21 +1054,25 @@
     </section>
 
     <h2 id="14" class="section-cut text-center">14 Loyout Staff</h2>
-    <section  class="container-fluid container-layout-staff p-0">
+    <section class="container-fluid container-layout-staff p-0">
       <div class="row">
         <div
           class="col-12 col-md-6 col-layout-staff-goal text-center py-md-2 py-2"
         >
-          <img class="content-100" src="../assets/img/goals/14.layout-staff.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/14.layout-staff.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-6 col-layout-staff-pixel">
           <nav class="nav">
             <ul>
-              <li><a href="http://">Games</a></li>
-              <li><a class="link-is-active" href="http://">About</a></li>
-              <li><a href="http://">Jobs</a></li>
-              <li><a href="http://">Blogs</a></li>
-              <li><a href="http://">support</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a class="link-is-active" href="#">About</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">support</a></li>
             </ul>
           </nav>
           <div class="second-header">
@@ -1325,72 +1359,96 @@
     </section>
 
     <h2 id="15" class="section-cut text-center">15 Card Small</h2>
-    <section  class="container-fluid container-card-small p-0">
+    <section class="container-fluid container-card-small p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-card-small-goal text-center py-md-2 py-2"
         >
-          <img class="content-50" src="../assets/img/goals//15.card-small.png" alt="" />
+          <img
+            class="content-50"
+            src="../assets/img/goals//15.card-small.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-card-small-pixel"></div>
       </div>
     </section>
 
     <h2 id="16" class="section-cut text-center">16 Card Full Height</h2>
-    <section  class="container-fluid container-card-full-height p-0">
+    <section class="container-fluid container-card-full-height p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-card-full-height-goal text-center py-md-2 py-2"
         >
-          <img class="content-50" src="../assets/img/goals/16.card-full-height.png" alt="" />
+          <img
+            class="content-50"
+            src="../assets/img/goals/16.card-full-height.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-card-full-height-pixel"></div>
       </div>
     </section>
 
     <h2 id="17" class="section-cut text-center">17 Card Small Popup</h2>
-    <section  class="container-fluid container-card-small-popup p-0">
+    <section class="container-fluid container-card-small-popup p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-card-small-popup-goal text-center py-md-2 py-2"
         >
-          <img class="content-50" src="../assets/img/goals/17.card-small-popup.png" alt="" />
+          <img
+            class="content-50"
+            src="../assets/img/goals/17.card-small-popup.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-card-small-popup-pixel"></div>
       </div>
     </section>
 
     <h2 id="18" class="section-cut text-center">18 Ecommerce Badge</h2>
-    <section  class="container-fluid container-ecommerce-badge p-0">
+    <section class="container-fluid container-ecommerce-badge p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-ecommerce-badge-goal text-center py-md-2 py-2"
         >
-          <img class="content-100" src="../assets/img/goals/18.ecommerce-badge.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/18.ecommerce-badge.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-ecommerce-badge-pixel"></div>
       </div>
     </section>
 
     <h2 id="19" class="section-cut text-center">19 Footer Mega Menu</h2>
-    <section  class="container-fluid container-footer-mega-menu p-0">
+    <section class="container-fluid container-footer-mega-menu p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-footer-mega-menu-goal text-center py-md-2 py-2"
         >
-          <img class="content-100" src="../assets/img/goals/19.footer-mega-menu.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/19.footer-mega-menu.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-footer-mega-menu-pixel"></div>
       </div>
     </section>
 
     <h2 id="20" class="section-cut text-center">20 Quote testimonial</h2>
-    <section  class="container-fluid container-quote-testimonial p-0">
+    <section class="container-fluid container-quote-testimonial p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-quote-testimonial-goal text-center py-md-2 py-2"
         >
-          <img class="content-100" src="../assets/img/goals/20.quote-testimonial.png" alt="" />
+          <img
+            class="content-100"
+            src="../assets/img/goals/20.quote-testimonial.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-quote-testimonial-pixel"></div>
       </div>
@@ -1402,19 +1460,27 @@
         <div
           class="col-12 col-md-12 col-side-bar-goal text-center py-md-2 py-2"
         >
-          <img class="content-50" src="../assets/img/goals/21.sidebar.png" alt="" />
+          <img
+            class="content-50"
+            src="../assets/img/goals/21.sidebar.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-side-bar-pixel"></div>
       </div>
     </section>
 
-    <h2 id="22" class="section-cut text-center"> 22 UI Table</h2>
-    <section  class="container-fluid container-ui-table p-0">
+    <h2 id="22" class="section-cut text-center">22 UI Table</h2>
+    <section class="container-fluid container-ui-table p-0">
       <div class="row">
         <div
           class="col-12 col-md-12 col-ui-table-goal text-center py-md-2 py-2"
         >
-          <img class="content-50" src="../assets/img/goals/22-ui-table.png" alt="" />
+          <img
+            class="content-50"
+            src="../assets/img/goals/22-ui-table.png"
+            alt=""
+          />
         </div>
         <div class="col-12 col-md-12 col-ui-table-pixel"></div>
       </div>
