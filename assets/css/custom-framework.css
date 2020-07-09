@@ -36,4 +36,8 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.title-hidden {
+  display: none;
+}
 /*# sourceMappingURL=custom-framework.css.map */

@@ -37,6 +37,10 @@ body {
   padding-bottom: 10px;
 }
 
+.title-hidden {
+  display: none;
+}
+
 header#nav {
   position: relative;
   padding-bottom: 50px;
@@ -303,10 +307,6 @@ header#nav ul li:last-child {
   line-height: 1vw;
 }
 
-.container-footer .title-hidden {
-  display: none;
-}
-
 .container-footer .col-footer-goal {
   padding: 0;
   margin: 0;
@@ -364,10 +364,6 @@ header#nav ul li:last-child {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.container-pagination h2 {
-  display: none;
 }
 
 .col-pagination-pixel .pagination-content {
@@ -897,5 +893,113 @@ header#nav ul li:last-child {
   font-weight: bold;
   text-decoration: none;
   margin-top: 0.3vw;
+}
+
+.col-ecommerce-catalog-pixel {
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.col-ecommerce-catalog-pixel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-left: 1px solid #d8d8d8;
+}
+
+.col-ecommerce-catalog-pixel ul li {
+  width: 25%;
+  border-right: 1px solid #d8d8d8;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 2vw;
+  position: relative;
+}
+
+.col-ecommerce-catalog-pixel ul li .deal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ce4442;
+  font-size: 0.9vw;
+  font-weight: bold;
+}
+
+.col-ecommerce-catalog-pixel ul li .deal span {
+  display: inline-block;
+  background-color: #ce4442;
+  color: white;
+  padding: 0.5vw;
+  margin-right: 15px;
+}
+
+.col-ecommerce-catalog-pixel ul li .content-img {
+  width: 70%;
+  margin: 0 auto;
+  padding: 7vw 0;
+  position: relative;
+}
+
+.col-ecommerce-catalog-pixel ul li .content-img img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.col-ecommerce-catalog-pixel ul li p {
+  font-size: 1vw;
+}
+
+.col-ecommerce-catalog-pixel ul li .description {
+  font-weight: bold;
+  padding-bottom: 2vw;
+}
+
+.col-ecommerce-catalog-pixel ul li .description-mark {
+  color: #aaaaaa;
+  padding-bottom: 3vw;
+}
+
+.col-ecommerce-catalog-pixel ul li .price-promo {
+  color: #ce4442;
+  display: inline;
+  font-size: 1.7vw;
+  font-weight: bold;
+}
+
+.col-ecommerce-catalog-pixel ul li .price-promo span {
+  font-size: 1vw;
+}
+
+.col-ecommerce-catalog-pixel ul li .not-price {
+  display: inline-block;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.col-ecommerce-catalog-pixel ul li .promo-texte {
+  font-size: 0.8vw;
+  color: #aaaaaa;
+  padding-bottom: 2vw;
+}
+
+.col-ecommerce-catalog-pixel ul li .promo-texte span {
+  color: #ce4442;
+  font-weight: bold;
+}
+
+.col-ecommerce-catalog-pixel ul li a {
+  display: block;
+  padding: 1.3vw;
+  background-color: #eeb03e;
+  color: white;
+  font-size: 1vw;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

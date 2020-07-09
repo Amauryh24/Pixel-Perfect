@@ -1,0 +1,44 @@
+.col-zone-hero-pixel {
+  position: relative;
+}
+
+.col-zone-hero-pixel .content-img img {
+  width: 75%;
+  height: 53vw;
+  float: right;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.col-zone-hero-pixel .content-text {
+  position: absolute;
+  top: 0;
+}
+
+.col-zone-hero-pixel .content-text h2 {
+  padding-top: 7.8vw;
+  font-size: 3.2vw;
+  letter-spacing: 0.03em;
+  width: 24vw !important;
+}
+
+.col-zone-hero-pixel .content-text .content-size {
+  width: 28vw;
+  margin-left: 9vw;
+}
+
+.col-zone-hero-pixel .content-text p {
+  font-size: 1.3vw;
+  line-height: 1.5em;
+  padding: 1.5vw 0;
+}
+
+.col-zone-hero-pixel .content-text a {
+  font-size: 1.2vw;
+  line-height: 4.3vw;
+  background-color: #e5b83f;
+  color: black;
+  padding: 1.2em 2.5vw;
+  text-decoration: none;
+}
+/*# sourceMappingURL=07-zone-hero.css.map */
