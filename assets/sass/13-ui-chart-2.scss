@@ -1,56 +1,66 @@
 .col-ui-chart-2-pixel {
-  background-color: #468df1;
-  max-width: 332px;
-  border: 7px solid #ededed;
+  width: 48.4%;
+  border: 0.8vw solid #ededed;
   margin: auto;
-  padding: 20px;
-  color: white;
-  font-size: 13px;
-  h3 {
-    font-size: 1em;
-    letter-spacing: 0.02em;
-    margin: 0;
-  }
-  .badge-chart {
-    font-size: 4em;
-    display: block;
-    padding-bottom: 10px;
-  }
-  .color-blue {
-    color: #9dc1f7;
-  }
-  p {
-    margin: 0;
-  }
-  ul {
-    padding-top: 20px;
-    li {
-      display: flex;
-      justify-content: space-between;
-      border-bottom: 0.5px solid rgba(255, 255, 255, 0.089);
-      padding: 5px 0px;
 
-      &:last-child {
-        border: none;
+  color: white;
+  font-size: 1.2vw;
+  font-family: sans-serif;
+  .content-card {
+    border-radius: 0.3vw;
+    padding: 3vw;
+    background-color: #468df1;
+    box-shadow: 1px 1px 6px rgb(68, 68, 68);
+
+    h3 {
+      font-size: 1.6vw;
+      letter-spacing: 0.02em;
+      margin: 0;
+      font-weight: initial;
+    }
+
+    .badge-chart {
+      font-size: 8vw;
+      display: block;
+      padding: 2.5vw 0;
+    }
+    .color-blue {
+      color: #9dc1f7;
+    }
+    p {
+      margin: 0;
+      padding: 0.7vw 0;
+    }
+    ul {
+      padding-top: 1vw;
+      li {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.089);
+        padding: 0.7vw 0;
+        font-size: 1.9vw;
+        &:last-child {
+          border: none;
+        }
       }
     }
-  }
 
-  .footer-card {
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
-    text-align: right;
-    position: relative;
-    padding-top: 20px;
-    &:before {
-      border-top: 0.5px solid rgba(255, 255, 255, 0.089);
-      content: " \00a0";
-      display: inline-block;
-      position: absolute;
-      top: 0px;
-      right: -20px;
-      left: -20px;
+    .footer-card {
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      text-align: right;
+      position: relative;
+      padding-top: 20px;
+      &:before {
+        border-top: 0.5px solid rgba(255, 255, 255, 0.089);
+        content: " \00a0";
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        right: -20px;
+        left: -20px;
+      }
     }
   }
 }

@@ -4,6 +4,7 @@
   }
 }
 .col-layout-staff-pixel {
+  font-family: sans-serif;
   .nav {
     ul {
       display: flex;
@@ -16,20 +17,21 @@
       li {
         a {
           display: inline-block;
-          width: 83px;
-          height: 83px;
-          line-height: 83px;
+          width: 9vw;
+          line-height: 8vw;
           text-transform: uppercase;
-          font-size: 0.7em;
+          font-size: 1.2vw;
           font-weight: bold;
           color: black;
+          text-decoration: none;
           &:hover {
             background-color: #7fbb49;
+            border-bottom: 0.5vw solid #7fbb49;
           }
         }
       }
       .link-is-active {
-        border-bottom: 7px solid #7fbb49;
+        border-bottom: 0.5vw solid #7fbb49;
       }
     }
   }
@@ -37,19 +39,19 @@
     text-align: center;
     background-color: #7fbb49;
     color: white;
-    padding: 55px;
+    padding: 8vw;
     h2 {
       text-transform: uppercase;
-      font-size: 2.2em;
+      font-size: 3.5vw;
       font-weight: bold;
       padding-top: 5px;
     }
     p {
-      font-size: 0.8em;
-      width: 71%;
+      font-size: 1.5vw;
+      width: 77%;
       margin: 0 auto;
       letter-spacing: 0.02em;
-      padding: 20px 0;
+      padding: 1vw 0;
       line-height: 1.8em;
     }
   }
@@ -66,28 +68,28 @@
       display: flex;
       flex-flow: row wrap;
       text-align: center;
+      width: 90%;
+      margin: 0 auto;
       li {
-        width: 25%;
-        padding: 40px 25px 65px;
+        width: 20%;
+        padding: 2.5%;
+        font-size: 1.2vw;
+        line-height: 1.5em;
+
         &:hover {
           background-color: rgba(204, 204, 204, 0.267);
         }
-        img {
-          width: 100%;
-        }
         .avatar-name {
-          font-size: 0.8em;
           font-weight: bold;
           padding-top: 10px;
         }
         .avatar-status {
-          font-size: 0.7em;
           font-weight: bold;
           color: #c1c1c1;
+          padding: 0.5vw;
+          font-size: 1vw;
         }
         .avatar-desc {
-          font-size: 0.7em;
-          line-height: 1.5em;
           letter-spacing: 0.02em;
         }
       }

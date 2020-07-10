@@ -1192,4 +1192,117 @@ header#nav ul li:last-child {
   right: -20px;
   left: -20px;
 }
+
+.col-layout-staff-goal img {
+  width: 100%;
+}
+
+.col-layout-staff-pixel {
+  font-family: sans-serif;
+}
+
+.col-layout-staff-pixel .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  padding-right: 35px;
+}
+
+.col-layout-staff-pixel .nav ul li a {
+  display: inline-block;
+  width: 9vw;
+  line-height: 8vw;
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.col-layout-staff-pixel .nav ul li a:hover {
+  background-color: #7fbb49;
+  border-bottom: 0.5vw solid #7fbb49;
+}
+
+.col-layout-staff-pixel .nav ul .link-is-active {
+  border-bottom: 0.5vw solid #7fbb49;
+}
+
+.col-layout-staff-pixel .second-header {
+  text-align: center;
+  background-color: #7fbb49;
+  color: white;
+  padding: 8vw;
+}
+
+.col-layout-staff-pixel .second-header h2 {
+  text-transform: uppercase;
+  font-size: 3.5vw;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.col-layout-staff-pixel .second-header p {
+  font-size: 1.5vw;
+  width: 77%;
+  margin: 0 auto;
+  letter-spacing: 0.02em;
+  padding: 1vw 0;
+  line-height: 1.8em;
+}
+
+.col-layout-staff-pixel .team-dots h3 {
+  margin: 0;
+  padding: 50px 0 0px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-layout-staff-pixel .team-dots ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col-layout-staff-pixel .team-dots ul li {
+  width: 20%;
+  padding: 2.5%;
+  font-size: 1.2vw;
+  line-height: 1.5em;
+}
+
+.col-layout-staff-pixel .team-dots ul li:hover {
+  background-color: rgba(204, 204, 204, 0.267);
+}
+
+.col-layout-staff-pixel .team-dots ul li .avatar-name {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.col-layout-staff-pixel .team-dots ul li .avatar-status {
+  font-weight: bold;
+  color: #c1c1c1;
+  padding: 0.5vw;
+  font-size: 1vw;
+}
+
+.col-layout-staff-pixel .team-dots ul li .avatar-desc {
+  letter-spacing: 0.02em;
+}
 /*# sourceMappingURL=style.css.map */
