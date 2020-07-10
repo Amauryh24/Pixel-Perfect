@@ -1,30 +1,112 @@
 .col-ui-chart-pixel {
-  background-color: #ccc;
-  max-width: 505px;
+  background-color: #f2f2f2;
+  width: 49%;
   margin: auto;
   text-align: center;
+  font-size: 1vw;
+  font-family: sans-serif;
+  padding: 0.8vw;
 }
 
-.col-ui-chart-pixel tr {
-  border-bottom: 1px solid green;
-  font-size: 0.7em;
-}
-
-.col-ui-chart-pixel tr .date-control {
-  width: 108px;
-  border: none;
+.col-ui-chart-pixel .text-left {
   text-align: left;
 }
 
-.col-ui-chart-pixel tr td {
-  width: 50px;
-  height: 28px;
-  background-color: chartreuse;
-  border: 2px solid white;
-  padding: 5px 0;
+.col-ui-chart-pixel .text-right {
+  text-align: right;
 }
 
-.col-ui-chart-pixel tr .blue-100 {
+.col-ui-chart-pixel h3 {
+  font-size: 1.7vw;
+  font-weight: initial;
+  padding: 1.5vw 0;
+  color: #9d9d9d;
+}
+
+.col-ui-chart-pixel table {
+  border-spacing: 0.3vw;
+  border-radius: 0.3vw;
+  border-collapse: separate;
+  width: 100%;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 0.3vw #9d9d9d;
+          box-shadow: 0px 1px 0.3vw #9d9d9d;
+}
+
+.col-ui-chart-pixel table tbody {
+  border-bottom: 2vw solid white;
+  border-left: 2vw solid white;
+  border-right: 2vw solid white;
+  display: block;
+}
+
+.col-ui-chart-pixel table tbody .color-grey {
+  color: #9d9d9d;
+}
+
+.col-ui-chart-pixel table tr {
+  border-bottom: 1px solid #e0e0e0;
+  display: inline-table;
+  width: 100%;
+}
+
+.col-ui-chart-pixel table tr:first-child {
+  font-size: 1.3vw;
+}
+
+.col-ui-chart-pixel table tr td,
+.col-ui-chart-pixel table tr th {
+  padding: 0.9vw 0;
+}
+
+.col-ui-chart-pixel table tr .date-control {
+  width: 22%;
+  text-align: left;
+}
+
+.col-ui-chart-pixel table tr .blue-100 {
   background-color: #3270d3;
+}
+
+.col-ui-chart-pixel table tr .blue-50 {
+  background-color: #468df1;
+}
+
+.col-ui-chart-pixel table tr .blue-40 {
+  background-color: #75a8f4;
+}
+
+.col-ui-chart-pixel table tr .blue-30 {
+  background-color: #a3c4f7;
+}
+
+.col-ui-chart-pixel table tr .blue-20 {
+  background-color: #d1e1fb;
+}
+
+.col-ui-chart-pixel table tr:last-child {
+  border-bottom: none;
+}
+
+.col-ui-chart-pixel table tfoot {
+  display: block;
+  border-top: 1px solid #e0e0e0;
+  border-left: 2vw solid white;
+  border-right: 2vw solid white;
+}
+
+.col-ui-chart-pixel table tfoot select {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2vw;
+  color: #9d9d9d;
+}
+
+.col-ui-chart-pixel table tfoot a {
+  text-decoration: none;
+  text-align: right;
+  font-size: 1.3vw;
+  text-transform: uppercase;
+  color: #9ec2ea;
 }
 /*# sourceMappingURL=12-ui-chart.css.map */

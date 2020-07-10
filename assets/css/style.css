@@ -1114,4 +1114,82 @@ header#nav ul li:last-child {
   text-transform: uppercase;
   color: #9ec2ea;
 }
+
+.col-ui-chart-2-pixel {
+  width: 48.4%;
+  border: 0.8vw solid #ededed;
+  margin: auto;
+  color: white;
+  font-size: 1.2vw;
+  font-family: sans-serif;
+}
+
+.col-ui-chart-2-pixel .content-card {
+  border-radius: 0.3vw;
+  padding: 3vw;
+  background-color: #468df1;
+  -webkit-box-shadow: 1px 1px 6px #444444;
+          box-shadow: 1px 1px 6px #444444;
+}
+
+.col-ui-chart-2-pixel .content-card h3 {
+  font-size: 1.6vw;
+  letter-spacing: 0.02em;
+  margin: 0;
+  font-weight: initial;
+}
+
+.col-ui-chart-2-pixel .content-card .badge-chart {
+  font-size: 8vw;
+  display: block;
+  padding: 2.5vw 0;
+}
+
+.col-ui-chart-2-pixel .content-card .color-blue {
+  color: #9dc1f7;
+}
+
+.col-ui-chart-2-pixel .content-card p {
+  margin: 0;
+  padding: 0.7vw 0;
+}
+
+.col-ui-chart-2-pixel .content-card ul {
+  padding-top: 1vw;
+}
+
+.col-ui-chart-2-pixel .content-card ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.089);
+  padding: 0.7vw 0;
+  font-size: 1.9vw;
+}
+
+.col-ui-chart-2-pixel .content-card ul li:last-child {
+  border: none;
+}
+
+.col-ui-chart-2-pixel .content-card .footer-card {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-align: right;
+  position: relative;
+  padding-top: 20px;
+}
+
+.col-ui-chart-2-pixel .content-card .footer-card:before {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.089);
+  content: " \00a0";
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: -20px;
+  left: -20px;
+}
 /*# sourceMappingURL=style.css.map */
