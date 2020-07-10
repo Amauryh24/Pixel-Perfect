@@ -24,7 +24,6 @@ body {
 .section-cut {
   font-family: sans-serif;
   clear: both;
-  background-color: #dda576;
   margin: 10px 0;
   color: white;
   font-size: 3vw;
@@ -41,6 +40,19 @@ body {
   display: none;
 }
 
+.flex-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 header#nav {
   position: relative;
   padding-bottom: 50px;
@@ -48,7 +60,6 @@ header#nav {
 
 header#nav h1 {
   font-size: 3vw;
-  color: #dda576;
   padding: 5vw;
 }
 
@@ -1193,10 +1204,6 @@ header#nav ul li:last-child {
   left: -20px;
 }
 
-.col-layout-staff-goal img {
-  width: 100%;
-}
-
 .col-layout-staff-pixel {
   font-family: sans-serif;
 }
@@ -1304,5 +1311,64 @@ header#nav ul li:last-child {
 
 .col-layout-staff-pixel .team-dots ul li .avatar-desc {
   letter-spacing: 0.02em;
+}
+
+.col-card-small-pixel {
+  font-family: sans-serif;
+  font-size: 1.8vw;
+  line-height: 1.3em;
+}
+
+.col-card-small-pixel .content-card {
+  width: 40%;
+}
+
+.col-card-small-pixel .content-card img {
+  width: 100%;
+}
+
+.col-card-small-pixel .content-text {
+  width: 52%;
+  padding: 0 4%;
+  border-right: 0.1em solid #eee;
+  border-top: 0.1em solid #eee;
+  border-bottom: 0.1em solid #eee;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col-card-small-pixel .content-text h3 {
+  padding-top: 2vw;
+  letter-spacing: -0.04em;
+}
+
+.col-card-small-pixel .content-text p {
+  font-size: 1.3vw;
+  line-height: 1.1em;
+  color: #9f9f9f;
+  letter-spacing: 0.04em;
+  padding: 1vw 0;
+}
+
+.col-card-small-pixel .content-text .badge {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2vw 0;
+}
+
+.col-card-small-pixel .content-text .badge img {
+  width: 18%;
+}
+
+.col-card-small-pixel .content-text .badge ul {
+  font-size: 1.2vw;
+  line-height: 1.1em;
+  padding: 0 6vw 0 1vw;
+}
+
+.col-card-small-pixel .content-text .badge ul li:last-child {
+  color: #9f9f9f;
 }
 /*# sourceMappingURL=style.css.map */
